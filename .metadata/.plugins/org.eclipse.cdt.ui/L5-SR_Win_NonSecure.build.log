@@ -1,0 +1,111 @@
+16:59:12 **** Incremental Build of configuration Debug for project L5-SR_Win_NonSecure ****
+make -j20 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m33 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32L552xx -c -I../Core/Inc -I../../Secure_nsclib -I../../Drivers/STM32L5xx_HAL_Driver/Inc -I../../Drivers/CMSIS/Device/ST/STM32L5xx/Include -I../../Drivers/STM32L5xx_HAL_Driver/Inc/Legacy -I../../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfpu=fpv5-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/main.o"
+../Core/Src/main.c:174:1: warning: multi-line comment [-Wcomment]
+  174 | //      MY_NOP(); \
+      | ^
+../Core/Src/main.c:187:29: warning: initialization of 'volatile int *' from 'int' makes pointer from integer without a cast [-Wint-conversion]
+  187 | int volatile  *tim1_CR1 =   0x40012C00,
+      |                             ^~~~~~~~~~
+../Core/Src/main.c:188:41: warning: initialization of 'volatile int *' from 'int' makes pointer from integer without a cast [-Wint-conversion]
+  188 |                           *tim1_CR2 =   0x40012C04,
+      |                                         ^~~~~~~~~~
+../Core/Src/main.c:189:29: warning: initialization of 'volatile int *' from 'int' makes pointer from integer without a cast [-Wint-conversion]
+  189 |               *tim1_SR =    0x40012C10,
+      |                             ^~~~~~~~~~
+../Core/Src/main.c:190:29: warning: initialization of 'volatile int *' from 'int' makes pointer from integer without a cast [-Wint-conversion]
+  190 |               *tim1_DIER =  0x40012C0C,
+      |                             ^~~~~~~~~~
+../Core/Src/main.c:191:29: warning: initialization of 'volatile int *' from 'int' makes pointer from integer without a cast [-Wint-conversion]
+  191 |               *tim1_EGR =   0x40012C14,
+      |                             ^~~~~~~~~~
+../Core/Src/main.c:192:29: warning: initialization of 'volatile int *' from 'int' makes pointer from integer without a cast [-Wint-conversion]
+  192 |               *tim1_CNT =   0x40012C24,
+      |                             ^~~~~~~~~~
+../Core/Src/main.c:193:29: warning: initialization of 'volatile int *' from 'int' makes pointer from integer without a cast [-Wint-conversion]
+  193 |               *tim1_ARR =   0x40012C2C;
+      |                             ^~~~~~~~~~
+../Core/Src/main.c:195:29: warning: initialization of 'volatile int *' from 'int' makes pointer from integer without a cast [-Wint-conversion]
+  195 | int volatile  *tim2_CR1 =   0x40000000,
+      |                             ^~~~~~~~~~
+../Core/Src/main.c:196:29: warning: initialization of 'volatile int *' from 'int' makes pointer from integer without a cast [-Wint-conversion]
+  196 |               *tim2_SR =    0x40000010,
+      |                             ^~~~~~~~~~
+../Core/Src/main.c:197:29: warning: initialization of 'volatile int *' from 'int' makes pointer from integer without a cast [-Wint-conversion]
+  197 |               *tim2_DIER =  0x4000000C,
+      |                             ^~~~~~~~~~
+../Core/Src/main.c:198:29: warning: initialization of 'volatile int *' from 'int' makes pointer from integer without a cast [-Wint-conversion]
+  198 |               *tim2_EGR =   0x40000014,
+      |                             ^~~~~~~~~~
+../Core/Src/main.c:199:29: warning: initialization of 'volatile int *' from 'int' makes pointer from integer without a cast [-Wint-conversion]
+  199 |               *tim2_CNT =   0x40000024,
+      |                             ^~~~~~~~~~
+../Core/Src/main.c:200:29: warning: initialization of 'volatile int *' from 'int' makes pointer from integer without a cast [-Wint-conversion]
+  200 |               *tim2_ARR =   0x4000002C;
+      |                             ^~~~~~~~~~
+../Core/Src/main.c: In function 'victim_1_NS':
+../Core/Src/main.c:222:19: warning: variable 'max' set but not used [-Wunused-but-set-variable]
+  222 |   int num1, num2, max;
+      |                   ^~~
+../Core/Src/main.c: In function 'victim_2_NS':
+../Core/Src/main.c:233:25: warning: variable 'max' set but not used [-Wunused-but-set-variable]
+  233 |         int num1, num2, max;
+      |                         ^~~
+../Core/Src/main.c: In function 'get_accurate_trace':
+../Core/Src/main.c:151:5: warning: this 'else' clause does not guard... [-Wmisleading-indentation]
+  151 |     else \
+      |     ^~~~
+../Core/Src/main.c:302:9: note: in expansion of macro 'VICTIM_CODE'
+  302 |         VICTIM_CODE(); //define
+      |         ^~~~~~~~~~~
+../Core/Src/main.c:125:20: note: ...this statement, but the latter is misleadingly indented as if it were guarded by the 'else'
+  125 | #define HUND_NOPS()do {\
+      |                    ^~
+../Core/Src/main.c:153:9: note: in expansion of macro 'HUND_NOPS'
+  153 |         HUND_NOPS();\
+      |         ^~~~~~~~~
+../Core/Src/main.c:302:9: note: in expansion of macro 'VICTIM_CODE'
+  302 |         VICTIM_CODE(); //define
+      |         ^~~~~~~~~~~
+../Core/Src/main.c:147:15: warning: variable 'var' set but not used [-Wunused-but-set-variable]
+  147 |         int s,var; \
+      |               ^~~
+../Core/Src/main.c:302:9: note: in expansion of macro 'VICTIM_CODE'
+  302 |         VICTIM_CODE(); //define
+      |         ^~~~~~~~~~~
+../Core/Src/main.c: In function 'measure_time':
+../Core/Src/main.c:151:5: warning: this 'else' clause does not guard... [-Wmisleading-indentation]
+  151 |     else \
+      |     ^~~~
+../Core/Src/main.c:343:9: note: in expansion of macro 'VICTIM_CODE'
+  343 |         VICTIM_CODE(); // 37clks
+      |         ^~~~~~~~~~~
+../Core/Src/main.c:125:20: note: ...this statement, but the latter is misleadingly indented as if it were guarded by the 'else'
+  125 | #define HUND_NOPS()do {\
+      |                    ^~
+../Core/Src/main.c:153:9: note: in expansion of macro 'HUND_NOPS'
+  153 |         HUND_NOPS();\
+      |         ^~~~~~~~~
+../Core/Src/main.c:343:9: note: in expansion of macro 'VICTIM_CODE'
+  343 |         VICTIM_CODE(); // 37clks
+      |         ^~~~~~~~~~~
+../Core/Src/main.c:147:15: warning: variable 'var' set but not used [-Wunused-but-set-variable]
+  147 |         int s,var; \
+      |               ^~~
+../Core/Src/main.c:343:9: note: in expansion of macro 'VICTIM_CODE'
+  343 |         VICTIM_CODE(); // 37clks
+      |         ^~~~~~~~~~~
+arm-none-eabi-gcc -o "L5-SR_Win_NonSecure.elf" @"objects.list" C:/Users/asus/STM32CubeIDE/workspace_1.15.0/L5-SR_Win/Secure/Debug/secure_nsclib.o  -mcpu=cortex-m33 -T"C:\Users\asus\STM32CubeIDE\workspace_1.15.0\L5-SR_Win\NonSecure\STM32L552ZETXQ_FLASH.ld" --specs=nosys.specs -Wl,-Map="L5-SR_Win_NonSecure.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv5-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: L5-SR_Win_NonSecure.elf
+ 
+arm-none-eabi-size  L5-SR_Win_NonSecure.elf 
+arm-none-eabi-objdump -h -S L5-SR_Win_NonSecure.elf  > "L5-SR_Win_NonSecure.list"
+   text	   data	    bss	    dec	    hex	filename
+  25232	    136	   2320	  27688	   6c28	L5-SR_Win_NonSecure.elf
+Finished building: default.size.stdout
+ 
+Finished building: L5-SR_Win_NonSecure.list
+ 
+
+16:59:14 Build Finished. 0 errors, 20 warnings. (took 1s.219ms)
+

@@ -1,0 +1,10 @@
+16:59:15 **** Incremental Build of configuration Debug for project L5-SR_Win_Secure ****
+make -j20 all 
+arm-none-eabi-size  L5-SR_Win_Secure.elf 
+   text	   data	    bss	    dec	    hex	filename
+   4164	     12	   1580	   5756	   167c	L5-SR_Win_Secure.elf
+Finished building: default.size.stdout
+ 
+
+16:59:15 Build Finished. 0 errors, 0 warnings. (took 270ms)
+

@@ -1,0 +1,719 @@
+15:06:00 **** Incremental Build of configuration Debug for project L5-SR_Win_Secure ****
+make -j20 all 
+arm-none-eabi-gcc "C:/Users/asus/STM32CubeIDE/workspace_1.15.0/L5-SR_Win/Drivers/STM32L5xx_HAL_Driver/Src/stm32l5xx_hal.c" -mcpu=cortex-m33 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32L552xx -c -I../Core/Inc -I../../Secure_nsclib -I../../Drivers/STM32L5xx_HAL_Driver/Inc -I../../Drivers/CMSIS/Device/ST/STM32L5xx/Include -I../../Drivers/STM32L5xx_HAL_Driver/Inc/Legacy -I../../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -mcmse -MMD -MP -MF"Drivers/STM32L5xx_HAL_Driver/stm32l5xx_hal.d" -MT"Drivers/STM32L5xx_HAL_Driver/stm32l5xx_hal.o" --specs=nano.specs -mfpu=fpv5-sp-d16 -mfloat-abi=hard -mthumb -o "Drivers/STM32L5xx_HAL_Driver/stm32l5xx_hal.o"
+arm-none-eabi-gcc "C:/Users/asus/STM32CubeIDE/workspace_1.15.0/L5-SR_Win/Drivers/STM32L5xx_HAL_Driver/Src/stm32l5xx_hal_cortex.c" -mcpu=cortex-m33 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32L552xx -c -I../Core/Inc -I../../Secure_nsclib -I../../Drivers/STM32L5xx_HAL_Driver/Inc -I../../Drivers/CMSIS/Device/ST/STM32L5xx/Include -I../../Drivers/STM32L5xx_HAL_Driver/Inc/Legacy -I../../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -mcmse -MMD -MP -MF"Drivers/STM32L5xx_HAL_Driver/stm32l5xx_hal_cortex.d" -MT"Drivers/STM32L5xx_HAL_Driver/stm32l5xx_hal_cortex.o" --specs=nano.specs -mfpu=fpv5-sp-d16 -mfloat-abi=hard -mthumb -o "Drivers/STM32L5xx_HAL_Driver/stm32l5xx_hal_cortex.o"
+arm-none-eabi-gcc "C:/Users/asus/STM32CubeIDE/workspace_1.15.0/L5-SR_Win/Drivers/STM32L5xx_HAL_Driver/Src/stm32l5xx_hal_dma.c" -mcpu=cortex-m33 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32L552xx -c -I../Core/Inc -I../../Secure_nsclib -I../../Drivers/STM32L5xx_HAL_Driver/Inc -I../../Drivers/CMSIS/Device/ST/STM32L5xx/Include -I../../Drivers/STM32L5xx_HAL_Driver/Inc/Legacy -I../../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -mcmse -MMD -MP -MF"Drivers/STM32L5xx_HAL_Driver/stm32l5xx_hal_dma.d" -MT"Drivers/STM32L5xx_HAL_Driver/stm32l5xx_hal_dma.o" --specs=nano.specs -mfpu=fpv5-sp-d16 -mfloat-abi=hard -mthumb -o "Drivers/STM32L5xx_HAL_Driver/stm32l5xx_hal_dma.o"
+arm-none-eabi-gcc "C:/Users/asus/STM32CubeIDE/workspace_1.15.0/L5-SR_Win/Drivers/STM32L5xx_HAL_Driver/Src/stm32l5xx_hal_dma_ex.c" -mcpu=cortex-m33 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32L552xx -c -I../Core/Inc -I../../Secure_nsclib -I../../Drivers/STM32L5xx_HAL_Driver/Inc -I../../Drivers/CMSIS/Device/ST/STM32L5xx/Include -I../../Drivers/STM32L5xx_HAL_Driver/Inc/Legacy -I../../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -mcmse -MMD -MP -MF"Drivers/STM32L5xx_HAL_Driver/stm32l5xx_hal_dma_ex.d" -MT"Drivers/STM32L5xx_HAL_Driver/stm32l5xx_hal_dma_ex.o" --specs=nano.specs -mfpu=fpv5-sp-d16 -mfloat-abi=hard -mthumb -o "Drivers/STM32L5xx_HAL_Driver/stm32l5xx_hal_dma_ex.o"
+arm-none-eabi-gcc "C:/Users/asus/STM32CubeIDE/workspace_1.15.0/L5-SR_Win/Drivers/STM32L5xx_HAL_Driver/Src/stm32l5xx_hal_exti.c" -mcpu=cortex-m33 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32L552xx -c -I../Core/Inc -I../../Secure_nsclib -I../../Drivers/STM32L5xx_HAL_Driver/Inc -I../../Drivers/CMSIS/Device/ST/STM32L5xx/Include -I../../Drivers/STM32L5xx_HAL_Driver/Inc/Legacy -I../../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -mcmse -MMD -MP -MF"Drivers/STM32L5xx_HAL_Driver/stm32l5xx_hal_exti.d" -MT"Drivers/STM32L5xx_HAL_Driver/stm32l5xx_hal_exti.o" --specs=nano.specs -mfpu=fpv5-sp-d16 -mfloat-abi=hard -mthumb -o "Drivers/STM32L5xx_HAL_Driver/stm32l5xx_hal_exti.o"
+arm-none-eabi-gcc "C:/Users/asus/STM32CubeIDE/workspace_1.15.0/L5-SR_Win/Drivers/STM32L5xx_HAL_Driver/Src/stm32l5xx_hal_flash.c" -mcpu=cortex-m33 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32L552xx -c -I../Core/Inc -I../../Secure_nsclib -I../../Drivers/STM32L5xx_HAL_Driver/Inc -I../../Drivers/CMSIS/Device/ST/STM32L5xx/Include -I../../Drivers/STM32L5xx_HAL_Driver/Inc/Legacy -I../../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -mcmse -MMD -MP -MF"Drivers/STM32L5xx_HAL_Driver/stm32l5xx_hal_flash.d" -MT"Drivers/STM32L5xx_HAL_Driver/stm32l5xx_hal_flash.o" --specs=nano.specs -mfpu=fpv5-sp-d16 -mfloat-abi=hard -mthumb -o "Drivers/STM32L5xx_HAL_Driver/stm32l5xx_hal_flash.o"
+arm-none-eabi-gcc "C:/Users/asus/STM32CubeIDE/workspace_1.15.0/L5-SR_Win/Drivers/STM32L5xx_HAL_Driver/Src/stm32l5xx_hal_flash_ex.c" -mcpu=cortex-m33 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32L552xx -c -I../Core/Inc -I../../Secure_nsclib -I../../Drivers/STM32L5xx_HAL_Driver/Inc -I../../Drivers/CMSIS/Device/ST/STM32L5xx/Include -I../../Drivers/STM32L5xx_HAL_Driver/Inc/Legacy -I../../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -mcmse -MMD -MP -MF"Drivers/STM32L5xx_HAL_Driver/stm32l5xx_hal_flash_ex.d" -MT"Drivers/STM32L5xx_HAL_Driver/stm32l5xx_hal_flash_ex.o" --specs=nano.specs -mfpu=fpv5-sp-d16 -mfloat-abi=hard -mthumb -o "Drivers/STM32L5xx_HAL_Driver/stm32l5xx_hal_flash_ex.o"
+arm-none-eabi-gcc "C:/Users/asus/STM32CubeIDE/workspace_1.15.0/L5-SR_Win/Drivers/STM32L5xx_HAL_Driver/Src/stm32l5xx_hal_flash_ramfunc.c" -mcpu=cortex-m33 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32L552xx -c -I../Core/Inc -I../../Secure_nsclib -I../../Drivers/STM32L5xx_HAL_Driver/Inc -I../../Drivers/CMSIS/Device/ST/STM32L5xx/Include -I../../Drivers/STM32L5xx_HAL_Driver/Inc/Legacy -I../../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -mcmse -MMD -MP -MF"Drivers/STM32L5xx_HAL_Driver/stm32l5xx_hal_flash_ramfunc.d" -MT"Drivers/STM32L5xx_HAL_Driver/stm32l5xx_hal_flash_ramfunc.o" --specs=nano.specs -mfpu=fpv5-sp-d16 -mfloat-abi=hard -mthumb -o "Drivers/STM32L5xx_HAL_Driver/stm32l5xx_hal_flash_ramfunc.o"
+arm-none-eabi-gcc "C:/Users/asus/STM32CubeIDE/workspace_1.15.0/L5-SR_Win/Drivers/STM32L5xx_HAL_Driver/Src/stm32l5xx_hal_gpio.c" -mcpu=cortex-m33 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32L552xx -c -I../Core/Inc -I../../Secure_nsclib -I../../Drivers/STM32L5xx_HAL_Driver/Inc -I../../Drivers/CMSIS/Device/ST/STM32L5xx/Include -I../../Drivers/STM32L5xx_HAL_Driver/Inc/Legacy -I../../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -mcmse -MMD -MP -MF"Drivers/STM32L5xx_HAL_Driver/stm32l5xx_hal_gpio.d" -MT"Drivers/STM32L5xx_HAL_Driver/stm32l5xx_hal_gpio.o" --specs=nano.specs -mfpu=fpv5-sp-d16 -mfloat-abi=hard -mthumb -o "Drivers/STM32L5xx_HAL_Driver/stm32l5xx_hal_gpio.o"
+arm-none-eabi-gcc "C:/Users/asus/STM32CubeIDE/workspace_1.15.0/L5-SR_Win/Drivers/STM32L5xx_HAL_Driver/Src/stm32l5xx_hal_gtzc.c" -mcpu=cortex-m33 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32L552xx -c -I../Core/Inc -I../../Secure_nsclib -I../../Drivers/STM32L5xx_HAL_Driver/Inc -I../../Drivers/CMSIS/Device/ST/STM32L5xx/Include -I../../Drivers/STM32L5xx_HAL_Driver/Inc/Legacy -I../../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -mcmse -MMD -MP -MF"Drivers/STM32L5xx_HAL_Driver/stm32l5xx_hal_gtzc.d" -MT"Drivers/STM32L5xx_HAL_Driver/stm32l5xx_hal_gtzc.o" --specs=nano.specs -mfpu=fpv5-sp-d16 -mfloat-abi=hard -mthumb -o "Drivers/STM32L5xx_HAL_Driver/stm32l5xx_hal_gtzc.o"
+arm-none-eabi-gcc "C:/Users/asus/STM32CubeIDE/workspace_1.15.0/L5-SR_Win/Drivers/STM32L5xx_HAL_Driver/Src/stm32l5xx_hal_i2c.c" -mcpu=cortex-m33 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32L552xx -c -I../Core/Inc -I../../Secure_nsclib -I../../Drivers/STM32L5xx_HAL_Driver/Inc -I../../Drivers/CMSIS/Device/ST/STM32L5xx/Include -I../../Drivers/STM32L5xx_HAL_Driver/Inc/Legacy -I../../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -mcmse -MMD -MP -MF"Drivers/STM32L5xx_HAL_Driver/stm32l5xx_hal_i2c.d" -MT"Drivers/STM32L5xx_HAL_Driver/stm32l5xx_hal_i2c.o" --specs=nano.specs -mfpu=fpv5-sp-d16 -mfloat-abi=hard -mthumb -o "Drivers/STM32L5xx_HAL_Driver/stm32l5xx_hal_i2c.o"
+arm-none-eabi-gcc "C:/Users/asus/STM32CubeIDE/workspace_1.15.0/L5-SR_Win/Drivers/STM32L5xx_HAL_Driver/Src/stm32l5xx_hal_i2c_ex.c" -mcpu=cortex-m33 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32L552xx -c -I../Core/Inc -I../../Secure_nsclib -I../../Drivers/STM32L5xx_HAL_Driver/Inc -I../../Drivers/CMSIS/Device/ST/STM32L5xx/Include -I../../Drivers/STM32L5xx_HAL_Driver/Inc/Legacy -I../../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -mcmse -MMD -MP -MF"Drivers/STM32L5xx_HAL_Driver/stm32l5xx_hal_i2c_ex.d" -MT"Drivers/STM32L5xx_HAL_Driver/stm32l5xx_hal_i2c_ex.o" --specs=nano.specs -mfpu=fpv5-sp-d16 -mfloat-abi=hard -mthumb -o "Drivers/STM32L5xx_HAL_Driver/stm32l5xx_hal_i2c_ex.o"
+arm-none-eabi-gcc "C:/Users/asus/STM32CubeIDE/workspace_1.15.0/L5-SR_Win/Drivers/STM32L5xx_HAL_Driver/Src/stm32l5xx_hal_icache.c" -mcpu=cortex-m33 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32L552xx -c -I../Core/Inc -I../../Secure_nsclib -I../../Drivers/STM32L5xx_HAL_Driver/Inc -I../../Drivers/CMSIS/Device/ST/STM32L5xx/Include -I../../Drivers/STM32L5xx_HAL_Driver/Inc/Legacy -I../../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -mcmse -MMD -MP -MF"Drivers/STM32L5xx_HAL_Driver/stm32l5xx_hal_icache.d" -MT"Drivers/STM32L5xx_HAL_Driver/stm32l5xx_hal_icache.o" --specs=nano.specs -mfpu=fpv5-sp-d16 -mfloat-abi=hard -mthumb -o "Drivers/STM32L5xx_HAL_Driver/stm32l5xx_hal_icache.o"
+arm-none-eabi-gcc "C:/Users/asus/STM32CubeIDE/workspace_1.15.0/L5-SR_Win/Drivers/STM32L5xx_HAL_Driver/Src/stm32l5xx_hal_pwr.c" -mcpu=cortex-m33 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32L552xx -c -I../Core/Inc -I../../Secure_nsclib -I../../Drivers/STM32L5xx_HAL_Driver/Inc -I../../Drivers/CMSIS/Device/ST/STM32L5xx/Include -I../../Drivers/STM32L5xx_HAL_Driver/Inc/Legacy -I../../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -mcmse -MMD -MP -MF"Drivers/STM32L5xx_HAL_Driver/stm32l5xx_hal_pwr.d" -MT"Drivers/STM32L5xx_HAL_Driver/stm32l5xx_hal_pwr.o" --specs=nano.specs -mfpu=fpv5-sp-d16 -mfloat-abi=hard -mthumb -o "Drivers/STM32L5xx_HAL_Driver/stm32l5xx_hal_pwr.o"
+arm-none-eabi-gcc "C:/Users/asus/STM32CubeIDE/workspace_1.15.0/L5-SR_Win/Drivers/STM32L5xx_HAL_Driver/Src/stm32l5xx_hal_pwr_ex.c" -mcpu=cortex-m33 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32L552xx -c -I../Core/Inc -I../../Secure_nsclib -I../../Drivers/STM32L5xx_HAL_Driver/Inc -I../../Drivers/CMSIS/Device/ST/STM32L5xx/Include -I../../Drivers/STM32L5xx_HAL_Driver/Inc/Legacy -I../../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -mcmse -MMD -MP -MF"Drivers/STM32L5xx_HAL_Driver/stm32l5xx_hal_pwr_ex.d" -MT"Drivers/STM32L5xx_HAL_Driver/stm32l5xx_hal_pwr_ex.o" --specs=nano.specs -mfpu=fpv5-sp-d16 -mfloat-abi=hard -mthumb -o "Drivers/STM32L5xx_HAL_Driver/stm32l5xx_hal_pwr_ex.o"
+arm-none-eabi-gcc "C:/Users/asus/STM32CubeIDE/workspace_1.15.0/L5-SR_Win/Drivers/STM32L5xx_HAL_Driver/Src/stm32l5xx_hal_rcc.c" -mcpu=cortex-m33 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32L552xx -c -I../Core/Inc -I../../Secure_nsclib -I../../Drivers/STM32L5xx_HAL_Driver/Inc -I../../Drivers/CMSIS/Device/ST/STM32L5xx/Include -I../../Drivers/STM32L5xx_HAL_Driver/Inc/Legacy -I../../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -mcmse -MMD -MP -MF"Drivers/STM32L5xx_HAL_Driver/stm32l5xx_hal_rcc.d" -MT"Drivers/STM32L5xx_HAL_Driver/stm32l5xx_hal_rcc.o" --specs=nano.specs -mfpu=fpv5-sp-d16 -mfloat-abi=hard -mthumb -o "Drivers/STM32L5xx_HAL_Driver/stm32l5xx_hal_rcc.o"
+arm-none-eabi-gcc "C:/Users/asus/STM32CubeIDE/workspace_1.15.0/L5-SR_Win/Drivers/STM32L5xx_HAL_Driver/Src/stm32l5xx_hal_rcc_ex.c" -mcpu=cortex-m33 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32L552xx -c -I../Core/Inc -I../../Secure_nsclib -I../../Drivers/STM32L5xx_HAL_Driver/Inc -I../../Drivers/CMSIS/Device/ST/STM32L5xx/Include -I../../Drivers/STM32L5xx_HAL_Driver/Inc/Legacy -I../../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -mcmse -MMD -MP -MF"Drivers/STM32L5xx_HAL_Driver/stm32l5xx_hal_rcc_ex.d" -MT"Drivers/STM32L5xx_HAL_Driver/stm32l5xx_hal_rcc_ex.o" --specs=nano.specs -mfpu=fpv5-sp-d16 -mfloat-abi=hard -mthumb -o "Drivers/STM32L5xx_HAL_Driver/stm32l5xx_hal_rcc_ex.o"
+arm-none-eabi-gcc "C:/Users/asus/STM32CubeIDE/workspace_1.15.0/L5-SR_Win/Drivers/STM32L5xx_HAL_Driver/Src/stm32l5xx_hal_tim.c" -mcpu=cortex-m33 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32L552xx -c -I../Core/Inc -I../../Secure_nsclib -I../../Drivers/STM32L5xx_HAL_Driver/Inc -I../../Drivers/CMSIS/Device/ST/STM32L5xx/Include -I../../Drivers/STM32L5xx_HAL_Driver/Inc/Legacy -I../../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -mcmse -MMD -MP -MF"Drivers/STM32L5xx_HAL_Driver/stm32l5xx_hal_tim.d" -MT"Drivers/STM32L5xx_HAL_Driver/stm32l5xx_hal_tim.o" --specs=nano.specs -mfpu=fpv5-sp-d16 -mfloat-abi=hard -mthumb -o "Drivers/STM32L5xx_HAL_Driver/stm32l5xx_hal_tim.o"
+arm-none-eabi-gcc "C:/Users/asus/STM32CubeIDE/workspace_1.15.0/L5-SR_Win/Drivers/STM32L5xx_HAL_Driver/Src/stm32l5xx_hal_tim_ex.c" -mcpu=cortex-m33 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32L552xx -c -I../Core/Inc -I../../Secure_nsclib -I../../Drivers/STM32L5xx_HAL_Driver/Inc -I../../Drivers/CMSIS/Device/ST/STM32L5xx/Include -I../../Drivers/STM32L5xx_HAL_Driver/Inc/Legacy -I../../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -mcmse -MMD -MP -MF"Drivers/STM32L5xx_HAL_Driver/stm32l5xx_hal_tim_ex.d" -MT"Drivers/STM32L5xx_HAL_Driver/stm32l5xx_hal_tim_ex.o" --specs=nano.specs -mfpu=fpv5-sp-d16 -mfloat-abi=hard -mthumb -o "Drivers/STM32L5xx_HAL_Driver/stm32l5xx_hal_tim_ex.o"
+arm-none-eabi-gcc -mcpu=cortex-m33 -g3 -DDEBUG -c -x assembler-with-cpp -MMD -MP -MF"Core/Startup/startup_stm32l552zetxq.d" -MT"Core/Startup/startup_stm32l552zetxq.o" --specs=nano.specs -mfpu=fpv5-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Startup/startup_stm32l552zetxq.o" "../Core/Startup/startup_stm32l552zetxq.s"
+arm-none-eabi-gcc "../Core/Src/dma.c" -mcpu=cortex-m33 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32L552xx -c -I../Core/Inc -I../../Secure_nsclib -I../../Drivers/STM32L5xx_HAL_Driver/Inc -I../../Drivers/CMSIS/Device/ST/STM32L5xx/Include -I../../Drivers/STM32L5xx_HAL_Driver/Inc/Legacy -I../../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -mcmse -MMD -MP -MF"Core/Src/dma.d" -MT"Core/Src/dma.o" --specs=nano.specs -mfpu=fpv5-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/dma.o"
+arm-none-eabi-gcc "../Core/Src/gpio.c" -mcpu=cortex-m33 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32L552xx -c -I../Core/Inc -I../../Secure_nsclib -I../../Drivers/STM32L5xx_HAL_Driver/Inc -I../../Drivers/CMSIS/Device/ST/STM32L5xx/Include -I../../Drivers/STM32L5xx_HAL_Driver/Inc/Legacy -I../../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -mcmse -MMD -MP -MF"Core/Src/gpio.d" -MT"Core/Src/gpio.o" --specs=nano.specs -mfpu=fpv5-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/gpio.o"
+arm-none-eabi-gcc "../Core/Src/gtzc_s.c" -mcpu=cortex-m33 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32L552xx -c -I../Core/Inc -I../../Secure_nsclib -I../../Drivers/STM32L5xx_HAL_Driver/Inc -I../../Drivers/CMSIS/Device/ST/STM32L5xx/Include -I../../Drivers/STM32L5xx_HAL_Driver/Inc/Legacy -I../../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -mcmse -MMD -MP -MF"Core/Src/gtzc_s.d" -MT"Core/Src/gtzc_s.o" --specs=nano.specs -mfpu=fpv5-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/gtzc_s.o"
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m33 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32L552xx -c -I../Core/Inc -I../../Secure_nsclib -I../../Drivers/STM32L5xx_HAL_Driver/Inc -I../../Drivers/CMSIS/Device/ST/STM32L5xx/Include -I../../Drivers/STM32L5xx_HAL_Driver/Inc/Legacy -I../../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -mcmse -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfpu=fpv5-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/main.o"
+arm-none-eabi-gcc "../Core/Src/secure_nsc.c" -mcpu=cortex-m33 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32L552xx -c -I../Core/Inc -I../../Secure_nsclib -I../../Drivers/STM32L5xx_HAL_Driver/Inc -I../../Drivers/CMSIS/Device/ST/STM32L5xx/Include -I../../Drivers/STM32L5xx_HAL_Driver/Inc/Legacy -I../../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -mcmse -MMD -MP -MF"Core/Src/secure_nsc.d" -MT"Core/Src/secure_nsc.o" --specs=nano.specs -mfpu=fpv5-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/secure_nsc.o"
+arm-none-eabi-gcc "../Core/Src/stm32l5xx_hal_msp.c" -mcpu=cortex-m33 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32L552xx -c -I../Core/Inc -I../../Secure_nsclib -I../../Drivers/STM32L5xx_HAL_Driver/Inc -I../../Drivers/CMSIS/Device/ST/STM32L5xx/Include -I../../Drivers/STM32L5xx_HAL_Driver/Inc/Legacy -I../../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -mcmse -MMD -MP -MF"Core/Src/stm32l5xx_hal_msp.d" -MT"Core/Src/stm32l5xx_hal_msp.o" --specs=nano.specs -mfpu=fpv5-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/stm32l5xx_hal_msp.o"
+arm-none-eabi-gcc "../Core/Src/stm32l5xx_it.c" -mcpu=cortex-m33 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32L552xx -c -I../Core/Inc -I../../Secure_nsclib -I../../Drivers/STM32L5xx_HAL_Driver/Inc -I../../Drivers/CMSIS/Device/ST/STM32L5xx/Include -I../../Drivers/STM32L5xx_HAL_Driver/Inc/Legacy -I../../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -mcmse -MMD -MP -MF"Core/Src/stm32l5xx_it.d" -MT"Core/Src/stm32l5xx_it.o" --specs=nano.specs -mfpu=fpv5-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/stm32l5xx_it.o"
+arm-none-eabi-gcc "../Core/Src/syscalls.c" -mcpu=cortex-m33 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32L552xx -c -I../Core/Inc -I../../Secure_nsclib -I../../Drivers/STM32L5xx_HAL_Driver/Inc -I../../Drivers/CMSIS/Device/ST/STM32L5xx/Include -I../../Drivers/STM32L5xx_HAL_Driver/Inc/Legacy -I../../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -mcmse -MMD -MP -MF"Core/Src/syscalls.d" -MT"Core/Src/syscalls.o" --specs=nano.specs -mfpu=fpv5-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/syscalls.o"
+arm-none-eabi-gcc "../Core/Src/sysmem.c" -mcpu=cortex-m33 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32L552xx -c -I../Core/Inc -I../../Secure_nsclib -I../../Drivers/STM32L5xx_HAL_Driver/Inc -I../../Drivers/CMSIS/Device/ST/STM32L5xx/Include -I../../Drivers/STM32L5xx_HAL_Driver/Inc/Legacy -I../../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -mcmse -MMD -MP -MF"Core/Src/sysmem.d" -MT"Core/Src/sysmem.o" --specs=nano.specs -mfpu=fpv5-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/sysmem.o"
+arm-none-eabi-gcc "../Core/Src/system_stm32l5xx_s.c" -mcpu=cortex-m33 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32L552xx -c -I../Core/Inc -I../../Secure_nsclib -I../../Drivers/STM32L5xx_HAL_Driver/Inc -I../../Drivers/CMSIS/Device/ST/STM32L5xx/Include -I../../Drivers/STM32L5xx_HAL_Driver/Inc/Legacy -I../../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -mcmse -MMD -MP -MF"Core/Src/system_stm32l5xx_s.d" -MT"Core/Src/system_stm32l5xx_s.o" --specs=nano.specs -mfpu=fpv5-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/system_stm32l5xx_s.o"
+arm-none-eabi-gcc -o "L5-SR_Win_Secure.elf" @"objects.list"   -mcpu=cortex-m33 -T"C:\Users\asus\STM32CubeIDE\workspace_1.15.0\L5-SR_Win\Secure\STM32L552ZETXQ_FLASH.ld" --specs=nosys.specs -Wl,-Map="L5-SR_Win_Secure.map" -Wl,--gc-sections -static -Wl,--cmse-implib -Wl,--out-implib=./secure_nsclib.o --specs=nano.specs -mfpu=fpv5-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: L5-SR_Win_Secure.elf
+ 
+arm-none-eabi-size  L5-SR_Win_Secure.elf 
+arm-none-eabi-objdump -h -S L5-SR_Win_Secure.elf  > "L5-SR_Win_Secure.list"
+   text	   data	    bss	    dec	    hex	filename
+   4164	     12	   1580	   5756	   167c	L5-SR_Win_Secure.elf
+Finished building: default.size.stdout
+ 
+Finished building: L5-SR_Win_Secure.list
+ 
+15:06:04 **** Build of configuration Debug for project L5-SR_Win_NonSecure ****
+make -j20 all 
+arm-none-eabi-gcc "C:/Users/asus/STM32CubeIDE/workspace_1.15.0/L5-SR_Win/Drivers/STM32L5xx_HAL_Driver/Src/stm32l5xx_hal.c" -mcpu=cortex-m33 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32L552xx -c -I../Core/Inc -I../../Secure_nsclib -I../../Drivers/STM32L5xx_HAL_Driver/Inc -I../../Drivers/CMSIS/Device/ST/STM32L5xx/Include -I../../Drivers/STM32L5xx_HAL_Driver/Inc/Legacy -I../../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Drivers/STM32L5xx_HAL_Driver/stm32l5xx_hal.d" -MT"Drivers/STM32L5xx_HAL_Driver/stm32l5xx_hal.o" --specs=nano.specs -mfpu=fpv5-sp-d16 -mfloat-abi=hard -mthumb -o "Drivers/STM32L5xx_HAL_Driver/stm32l5xx_hal.o"
+arm-none-eabi-gcc "C:/Users/asus/STM32CubeIDE/workspace_1.15.0/L5-SR_Win/Drivers/STM32L5xx_HAL_Driver/Src/stm32l5xx_hal_cortex.c" -mcpu=cortex-m33 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32L552xx -c -I../Core/Inc -I../../Secure_nsclib -I../../Drivers/STM32L5xx_HAL_Driver/Inc -I../../Drivers/CMSIS/Device/ST/STM32L5xx/Include -I../../Drivers/STM32L5xx_HAL_Driver/Inc/Legacy -I../../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Drivers/STM32L5xx_HAL_Driver/stm32l5xx_hal_cortex.d" -MT"Drivers/STM32L5xx_HAL_Driver/stm32l5xx_hal_cortex.o" --specs=nano.specs -mfpu=fpv5-sp-d16 -mfloat-abi=hard -mthumb -o "Drivers/STM32L5xx_HAL_Driver/stm32l5xx_hal_cortex.o"
+arm-none-eabi-gcc "C:/Users/asus/STM32CubeIDE/workspace_1.15.0/L5-SR_Win/Drivers/STM32L5xx_HAL_Driver/Src/stm32l5xx_hal_dma.c" -mcpu=cortex-m33 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32L552xx -c -I../Core/Inc -I../../Secure_nsclib -I../../Drivers/STM32L5xx_HAL_Driver/Inc -I../../Drivers/CMSIS/Device/ST/STM32L5xx/Include -I../../Drivers/STM32L5xx_HAL_Driver/Inc/Legacy -I../../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Drivers/STM32L5xx_HAL_Driver/stm32l5xx_hal_dma.d" -MT"Drivers/STM32L5xx_HAL_Driver/stm32l5xx_hal_dma.o" --specs=nano.specs -mfpu=fpv5-sp-d16 -mfloat-abi=hard -mthumb -o "Drivers/STM32L5xx_HAL_Driver/stm32l5xx_hal_dma.o"
+arm-none-eabi-gcc "C:/Users/asus/STM32CubeIDE/workspace_1.15.0/L5-SR_Win/Drivers/STM32L5xx_HAL_Driver/Src/stm32l5xx_hal_dma_ex.c" -mcpu=cortex-m33 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32L552xx -c -I../Core/Inc -I../../Secure_nsclib -I../../Drivers/STM32L5xx_HAL_Driver/Inc -I../../Drivers/CMSIS/Device/ST/STM32L5xx/Include -I../../Drivers/STM32L5xx_HAL_Driver/Inc/Legacy -I../../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Drivers/STM32L5xx_HAL_Driver/stm32l5xx_hal_dma_ex.d" -MT"Drivers/STM32L5xx_HAL_Driver/stm32l5xx_hal_dma_ex.o" --specs=nano.specs -mfpu=fpv5-sp-d16 -mfloat-abi=hard -mthumb -o "Drivers/STM32L5xx_HAL_Driver/stm32l5xx_hal_dma_ex.o"
+arm-none-eabi-gcc "C:/Users/asus/STM32CubeIDE/workspace_1.15.0/L5-SR_Win/Drivers/STM32L5xx_HAL_Driver/Src/stm32l5xx_hal_exti.c" -mcpu=cortex-m33 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32L552xx -c -I../Core/Inc -I../../Secure_nsclib -I../../Drivers/STM32L5xx_HAL_Driver/Inc -I../../Drivers/CMSIS/Device/ST/STM32L5xx/Include -I../../Drivers/STM32L5xx_HAL_Driver/Inc/Legacy -I../../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Drivers/STM32L5xx_HAL_Driver/stm32l5xx_hal_exti.d" -MT"Drivers/STM32L5xx_HAL_Driver/stm32l5xx_hal_exti.o" --specs=nano.specs -mfpu=fpv5-sp-d16 -mfloat-abi=hard -mthumb -o "Drivers/STM32L5xx_HAL_Driver/stm32l5xx_hal_exti.o"
+arm-none-eabi-gcc "C:/Users/asus/STM32CubeIDE/workspace_1.15.0/L5-SR_Win/Drivers/STM32L5xx_HAL_Driver/Src/stm32l5xx_hal_flash.c" -mcpu=cortex-m33 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32L552xx -c -I../Core/Inc -I../../Secure_nsclib -I../../Drivers/STM32L5xx_HAL_Driver/Inc -I../../Drivers/CMSIS/Device/ST/STM32L5xx/Include -I../../Drivers/STM32L5xx_HAL_Driver/Inc/Legacy -I../../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Drivers/STM32L5xx_HAL_Driver/stm32l5xx_hal_flash.d" -MT"Drivers/STM32L5xx_HAL_Driver/stm32l5xx_hal_flash.o" --specs=nano.specs -mfpu=fpv5-sp-d16 -mfloat-abi=hard -mthumb -o "Drivers/STM32L5xx_HAL_Driver/stm32l5xx_hal_flash.o"
+arm-none-eabi-gcc "C:/Users/asus/STM32CubeIDE/workspace_1.15.0/L5-SR_Win/Drivers/STM32L5xx_HAL_Driver/Src/stm32l5xx_hal_flash_ex.c" -mcpu=cortex-m33 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32L552xx -c -I../Core/Inc -I../../Secure_nsclib -I../../Drivers/STM32L5xx_HAL_Driver/Inc -I../../Drivers/CMSIS/Device/ST/STM32L5xx/Include -I../../Drivers/STM32L5xx_HAL_Driver/Inc/Legacy -I../../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Drivers/STM32L5xx_HAL_Driver/stm32l5xx_hal_flash_ex.d" -MT"Drivers/STM32L5xx_HAL_Driver/stm32l5xx_hal_flash_ex.o" --specs=nano.specs -mfpu=fpv5-sp-d16 -mfloat-abi=hard -mthumb -o "Drivers/STM32L5xx_HAL_Driver/stm32l5xx_hal_flash_ex.o"
+arm-none-eabi-gcc "C:/Users/asus/STM32CubeIDE/workspace_1.15.0/L5-SR_Win/Drivers/STM32L5xx_HAL_Driver/Src/stm32l5xx_hal_flash_ramfunc.c" -mcpu=cortex-m33 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32L552xx -c -I../Core/Inc -I../../Secure_nsclib -I../../Drivers/STM32L5xx_HAL_Driver/Inc -I../../Drivers/CMSIS/Device/ST/STM32L5xx/Include -I../../Drivers/STM32L5xx_HAL_Driver/Inc/Legacy -I../../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Drivers/STM32L5xx_HAL_Driver/stm32l5xx_hal_flash_ramfunc.d" -MT"Drivers/STM32L5xx_HAL_Driver/stm32l5xx_hal_flash_ramfunc.o" --specs=nano.specs -mfpu=fpv5-sp-d16 -mfloat-abi=hard -mthumb -o "Drivers/STM32L5xx_HAL_Driver/stm32l5xx_hal_flash_ramfunc.o"
+arm-none-eabi-gcc "C:/Users/asus/STM32CubeIDE/workspace_1.15.0/L5-SR_Win/Drivers/STM32L5xx_HAL_Driver/Src/stm32l5xx_hal_gpio.c" -mcpu=cortex-m33 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32L552xx -c -I../Core/Inc -I../../Secure_nsclib -I../../Drivers/STM32L5xx_HAL_Driver/Inc -I../../Drivers/CMSIS/Device/ST/STM32L5xx/Include -I../../Drivers/STM32L5xx_HAL_Driver/Inc/Legacy -I../../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Drivers/STM32L5xx_HAL_Driver/stm32l5xx_hal_gpio.d" -MT"Drivers/STM32L5xx_HAL_Driver/stm32l5xx_hal_gpio.o" --specs=nano.specs -mfpu=fpv5-sp-d16 -mfloat-abi=hard -mthumb -o "Drivers/STM32L5xx_HAL_Driver/stm32l5xx_hal_gpio.o"
+arm-none-eabi-gcc "C:/Users/asus/STM32CubeIDE/workspace_1.15.0/L5-SR_Win/Drivers/STM32L5xx_HAL_Driver/Src/stm32l5xx_hal_i2c.c" -mcpu=cortex-m33 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32L552xx -c -I../Core/Inc -I../../Secure_nsclib -I../../Drivers/STM32L5xx_HAL_Driver/Inc -I../../Drivers/CMSIS/Device/ST/STM32L5xx/Include -I../../Drivers/STM32L5xx_HAL_Driver/Inc/Legacy -I../../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Drivers/STM32L5xx_HAL_Driver/stm32l5xx_hal_i2c.d" -MT"Drivers/STM32L5xx_HAL_Driver/stm32l5xx_hal_i2c.o" --specs=nano.specs -mfpu=fpv5-sp-d16 -mfloat-abi=hard -mthumb -o "Drivers/STM32L5xx_HAL_Driver/stm32l5xx_hal_i2c.o"
+arm-none-eabi-gcc "C:/Users/asus/STM32CubeIDE/workspace_1.15.0/L5-SR_Win/Drivers/STM32L5xx_HAL_Driver/Src/stm32l5xx_hal_i2c_ex.c" -mcpu=cortex-m33 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32L552xx -c -I../Core/Inc -I../../Secure_nsclib -I../../Drivers/STM32L5xx_HAL_Driver/Inc -I../../Drivers/CMSIS/Device/ST/STM32L5xx/Include -I../../Drivers/STM32L5xx_HAL_Driver/Inc/Legacy -I../../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Drivers/STM32L5xx_HAL_Driver/stm32l5xx_hal_i2c_ex.d" -MT"Drivers/STM32L5xx_HAL_Driver/stm32l5xx_hal_i2c_ex.o" --specs=nano.specs -mfpu=fpv5-sp-d16 -mfloat-abi=hard -mthumb -o "Drivers/STM32L5xx_HAL_Driver/stm32l5xx_hal_i2c_ex.o"
+arm-none-eabi-gcc "C:/Users/asus/STM32CubeIDE/workspace_1.15.0/L5-SR_Win/Drivers/STM32L5xx_HAL_Driver/Src/stm32l5xx_hal_icache.c" -mcpu=cortex-m33 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32L552xx -c -I../Core/Inc -I../../Secure_nsclib -I../../Drivers/STM32L5xx_HAL_Driver/Inc -I../../Drivers/CMSIS/Device/ST/STM32L5xx/Include -I../../Drivers/STM32L5xx_HAL_Driver/Inc/Legacy -I../../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Drivers/STM32L5xx_HAL_Driver/stm32l5xx_hal_icache.d" -MT"Drivers/STM32L5xx_HAL_Driver/stm32l5xx_hal_icache.o" --specs=nano.specs -mfpu=fpv5-sp-d16 -mfloat-abi=hard -mthumb -o "Drivers/STM32L5xx_HAL_Driver/stm32l5xx_hal_icache.o"
+arm-none-eabi-gcc "C:/Users/asus/STM32CubeIDE/workspace_1.15.0/L5-SR_Win/Drivers/STM32L5xx_HAL_Driver/Src/stm32l5xx_hal_pwr.c" -mcpu=cortex-m33 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32L552xx -c -I../Core/Inc -I../../Secure_nsclib -I../../Drivers/STM32L5xx_HAL_Driver/Inc -I../../Drivers/CMSIS/Device/ST/STM32L5xx/Include -I../../Drivers/STM32L5xx_HAL_Driver/Inc/Legacy -I../../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Drivers/STM32L5xx_HAL_Driver/stm32l5xx_hal_pwr.d" -MT"Drivers/STM32L5xx_HAL_Driver/stm32l5xx_hal_pwr.o" --specs=nano.specs -mfpu=fpv5-sp-d16 -mfloat-abi=hard -mthumb -o "Drivers/STM32L5xx_HAL_Driver/stm32l5xx_hal_pwr.o"
+arm-none-eabi-gcc "C:/Users/asus/STM32CubeIDE/workspace_1.15.0/L5-SR_Win/Drivers/STM32L5xx_HAL_Driver/Src/stm32l5xx_hal_pwr_ex.c" -mcpu=cortex-m33 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32L552xx -c -I../Core/Inc -I../../Secure_nsclib -I../../Drivers/STM32L5xx_HAL_Driver/Inc -I../../Drivers/CMSIS/Device/ST/STM32L5xx/Include -I../../Drivers/STM32L5xx_HAL_Driver/Inc/Legacy -I../../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Drivers/STM32L5xx_HAL_Driver/stm32l5xx_hal_pwr_ex.d" -MT"Drivers/STM32L5xx_HAL_Driver/stm32l5xx_hal_pwr_ex.o" --specs=nano.specs -mfpu=fpv5-sp-d16 -mfloat-abi=hard -mthumb -o "Drivers/STM32L5xx_HAL_Driver/stm32l5xx_hal_pwr_ex.o"
+arm-none-eabi-gcc "C:/Users/asus/STM32CubeIDE/workspace_1.15.0/L5-SR_Win/Drivers/STM32L5xx_HAL_Driver/Src/stm32l5xx_hal_rcc.c" -mcpu=cortex-m33 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32L552xx -c -I../Core/Inc -I../../Secure_nsclib -I../../Drivers/STM32L5xx_HAL_Driver/Inc -I../../Drivers/CMSIS/Device/ST/STM32L5xx/Include -I../../Drivers/STM32L5xx_HAL_Driver/Inc/Legacy -I../../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Drivers/STM32L5xx_HAL_Driver/stm32l5xx_hal_rcc.d" -MT"Drivers/STM32L5xx_HAL_Driver/stm32l5xx_hal_rcc.o" --specs=nano.specs -mfpu=fpv5-sp-d16 -mfloat-abi=hard -mthumb -o "Drivers/STM32L5xx_HAL_Driver/stm32l5xx_hal_rcc.o"
+arm-none-eabi-gcc "C:/Users/asus/STM32CubeIDE/workspace_1.15.0/L5-SR_Win/Drivers/STM32L5xx_HAL_Driver/Src/stm32l5xx_hal_rcc_ex.c" -mcpu=cortex-m33 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32L552xx -c -I../Core/Inc -I../../Secure_nsclib -I../../Drivers/STM32L5xx_HAL_Driver/Inc -I../../Drivers/CMSIS/Device/ST/STM32L5xx/Include -I../../Drivers/STM32L5xx_HAL_Driver/Inc/Legacy -I../../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Drivers/STM32L5xx_HAL_Driver/stm32l5xx_hal_rcc_ex.d" -MT"Drivers/STM32L5xx_HAL_Driver/stm32l5xx_hal_rcc_ex.o" --specs=nano.specs -mfpu=fpv5-sp-d16 -mfloat-abi=hard -mthumb -o "Drivers/STM32L5xx_HAL_Driver/stm32l5xx_hal_rcc_ex.o"
+arm-none-eabi-gcc "C:/Users/asus/STM32CubeIDE/workspace_1.15.0/L5-SR_Win/Drivers/STM32L5xx_HAL_Driver/Src/stm32l5xx_hal_tim.c" -mcpu=cortex-m33 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32L552xx -c -I../Core/Inc -I../../Secure_nsclib -I../../Drivers/STM32L5xx_HAL_Driver/Inc -I../../Drivers/CMSIS/Device/ST/STM32L5xx/Include -I../../Drivers/STM32L5xx_HAL_Driver/Inc/Legacy -I../../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Drivers/STM32L5xx_HAL_Driver/stm32l5xx_hal_tim.d" -MT"Drivers/STM32L5xx_HAL_Driver/stm32l5xx_hal_tim.o" --specs=nano.specs -mfpu=fpv5-sp-d16 -mfloat-abi=hard -mthumb -o "Drivers/STM32L5xx_HAL_Driver/stm32l5xx_hal_tim.o"
+arm-none-eabi-gcc "C:/Users/asus/STM32CubeIDE/workspace_1.15.0/L5-SR_Win/Drivers/STM32L5xx_HAL_Driver/Src/stm32l5xx_hal_tim_ex.c" -mcpu=cortex-m33 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32L552xx -c -I../Core/Inc -I../../Secure_nsclib -I../../Drivers/STM32L5xx_HAL_Driver/Inc -I../../Drivers/CMSIS/Device/ST/STM32L5xx/Include -I../../Drivers/STM32L5xx_HAL_Driver/Inc/Legacy -I../../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Drivers/STM32L5xx_HAL_Driver/stm32l5xx_hal_tim_ex.d" -MT"Drivers/STM32L5xx_HAL_Driver/stm32l5xx_hal_tim_ex.o" --specs=nano.specs -mfpu=fpv5-sp-d16 -mfloat-abi=hard -mthumb -o "Drivers/STM32L5xx_HAL_Driver/stm32l5xx_hal_tim_ex.o"
+arm-none-eabi-gcc "C:/Users/asus/STM32CubeIDE/workspace_1.15.0/L5-SR_Win/Drivers/STM32L5xx_HAL_Driver/Src/stm32l5xx_hal_uart.c" -mcpu=cortex-m33 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32L552xx -c -I../Core/Inc -I../../Secure_nsclib -I../../Drivers/STM32L5xx_HAL_Driver/Inc -I../../Drivers/CMSIS/Device/ST/STM32L5xx/Include -I../../Drivers/STM32L5xx_HAL_Driver/Inc/Legacy -I../../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Drivers/STM32L5xx_HAL_Driver/stm32l5xx_hal_uart.d" -MT"Drivers/STM32L5xx_HAL_Driver/stm32l5xx_hal_uart.o" --specs=nano.specs -mfpu=fpv5-sp-d16 -mfloat-abi=hard -mthumb -o "Drivers/STM32L5xx_HAL_Driver/stm32l5xx_hal_uart.o"
+arm-none-eabi-gcc "C:/Users/asus/STM32CubeIDE/workspace_1.15.0/L5-SR_Win/Drivers/STM32L5xx_HAL_Driver/Src/stm32l5xx_hal_uart_ex.c" -mcpu=cortex-m33 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32L552xx -c -I../Core/Inc -I../../Secure_nsclib -I../../Drivers/STM32L5xx_HAL_Driver/Inc -I../../Drivers/CMSIS/Device/ST/STM32L5xx/Include -I../../Drivers/STM32L5xx_HAL_Driver/Inc/Legacy -I../../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Drivers/STM32L5xx_HAL_Driver/stm32l5xx_hal_uart_ex.d" -MT"Drivers/STM32L5xx_HAL_Driver/stm32l5xx_hal_uart_ex.o" --specs=nano.specs -mfpu=fpv5-sp-d16 -mfloat-abi=hard -mthumb -o "Drivers/STM32L5xx_HAL_Driver/stm32l5xx_hal_uart_ex.o"
+arm-none-eabi-gcc -mcpu=cortex-m33 -g3 -DDEBUG -c -x assembler-with-cpp -MMD -MP -MF"Core/Startup/startup_stm32l552zetxq.d" -MT"Core/Startup/startup_stm32l552zetxq.o" --specs=nano.specs -mfpu=fpv5-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Startup/startup_stm32l552zetxq.o" "../Core/Startup/startup_stm32l552zetxq.s"
+arm-none-eabi-gcc "../Core/Src/dma.c" -mcpu=cortex-m33 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32L552xx -c -I../Core/Inc -I../../Secure_nsclib -I../../Drivers/STM32L5xx_HAL_Driver/Inc -I../../Drivers/CMSIS/Device/ST/STM32L5xx/Include -I../../Drivers/STM32L5xx_HAL_Driver/Inc/Legacy -I../../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/dma.d" -MT"Core/Src/dma.o" --specs=nano.specs -mfpu=fpv5-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/dma.o"
+arm-none-eabi-gcc "../Core/Src/gpio.c" -mcpu=cortex-m33 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32L552xx -c -I../Core/Inc -I../../Secure_nsclib -I../../Drivers/STM32L5xx_HAL_Driver/Inc -I../../Drivers/CMSIS/Device/ST/STM32L5xx/Include -I../../Drivers/STM32L5xx_HAL_Driver/Inc/Legacy -I../../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/gpio.d" -MT"Core/Src/gpio.o" --specs=nano.specs -mfpu=fpv5-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/gpio.o"
+arm-none-eabi-gcc "../Core/Src/icache.c" -mcpu=cortex-m33 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32L552xx -c -I../Core/Inc -I../../Secure_nsclib -I../../Drivers/STM32L5xx_HAL_Driver/Inc -I../../Drivers/CMSIS/Device/ST/STM32L5xx/Include -I../../Drivers/STM32L5xx_HAL_Driver/Inc/Legacy -I../../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/icache.d" -MT"Core/Src/icache.o" --specs=nano.specs -mfpu=fpv5-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/icache.o"
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m33 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32L552xx -c -I../Core/Inc -I../../Secure_nsclib -I../../Drivers/STM32L5xx_HAL_Driver/Inc -I../../Drivers/CMSIS/Device/ST/STM32L5xx/Include -I../../Drivers/STM32L5xx_HAL_Driver/Inc/Legacy -I../../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfpu=fpv5-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/main.o"
+arm-none-eabi-gcc "../Core/Src/stm32l5xx_hal_msp.c" -mcpu=cortex-m33 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32L552xx -c -I../Core/Inc -I../../Secure_nsclib -I../../Drivers/STM32L5xx_HAL_Driver/Inc -I../../Drivers/CMSIS/Device/ST/STM32L5xx/Include -I../../Drivers/STM32L5xx_HAL_Driver/Inc/Legacy -I../../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/stm32l5xx_hal_msp.d" -MT"Core/Src/stm32l5xx_hal_msp.o" --specs=nano.specs -mfpu=fpv5-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/stm32l5xx_hal_msp.o"
+arm-none-eabi-gcc "../Core/Src/stm32l5xx_it.c" -mcpu=cortex-m33 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32L552xx -c -I../Core/Inc -I../../Secure_nsclib -I../../Drivers/STM32L5xx_HAL_Driver/Inc -I../../Drivers/CMSIS/Device/ST/STM32L5xx/Include -I../../Drivers/STM32L5xx_HAL_Driver/Inc/Legacy -I../../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/stm32l5xx_it.d" -MT"Core/Src/stm32l5xx_it.o" --specs=nano.specs -mfpu=fpv5-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/stm32l5xx_it.o"
+arm-none-eabi-gcc "../Core/Src/syscalls.c" -mcpu=cortex-m33 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32L552xx -c -I../Core/Inc -I../../Secure_nsclib -I../../Drivers/STM32L5xx_HAL_Driver/Inc -I../../Drivers/CMSIS/Device/ST/STM32L5xx/Include -I../../Drivers/STM32L5xx_HAL_Driver/Inc/Legacy -I../../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/syscalls.d" -MT"Core/Src/syscalls.o" --specs=nano.specs -mfpu=fpv5-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/syscalls.o"
+arm-none-eabi-gcc "../Core/Src/sysmem.c" -mcpu=cortex-m33 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32L552xx -c -I../Core/Inc -I../../Secure_nsclib -I../../Drivers/STM32L5xx_HAL_Driver/Inc -I../../Drivers/CMSIS/Device/ST/STM32L5xx/Include -I../../Drivers/STM32L5xx_HAL_Driver/Inc/Legacy -I../../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/sysmem.d" -MT"Core/Src/sysmem.o" --specs=nano.specs -mfpu=fpv5-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/sysmem.o"
+arm-none-eabi-gcc "../Core/Src/system_stm32l5xx_ns.c" -mcpu=cortex-m33 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32L552xx -c -I../Core/Inc -I../../Secure_nsclib -I../../Drivers/STM32L5xx_HAL_Driver/Inc -I../../Drivers/CMSIS/Device/ST/STM32L5xx/Include -I../../Drivers/STM32L5xx_HAL_Driver/Inc/Legacy -I../../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/system_stm32l5xx_ns.d" -MT"Core/Src/system_stm32l5xx_ns.o" --specs=nano.specs -mfpu=fpv5-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/system_stm32l5xx_ns.o"
+arm-none-eabi-gcc "../Core/Src/tim.c" -mcpu=cortex-m33 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32L552xx -c -I../Core/Inc -I../../Secure_nsclib -I../../Drivers/STM32L5xx_HAL_Driver/Inc -I../../Drivers/CMSIS/Device/ST/STM32L5xx/Include -I../../Drivers/STM32L5xx_HAL_Driver/Inc/Legacy -I../../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/tim.d" -MT"Core/Src/tim.o" --specs=nano.specs -mfpu=fpv5-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/tim.o"
+arm-none-eabi-gcc "../Core/Src/usart.c" -mcpu=cortex-m33 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32L552xx -c -I../Core/Inc -I../../Secure_nsclib -I../../Drivers/STM32L5xx_HAL_Driver/Inc -I../../Drivers/CMSIS/Device/ST/STM32L5xx/Include -I../../Drivers/STM32L5xx_HAL_Driver/Inc/Legacy -I../../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/usart.d" -MT"Core/Src/usart.o" --specs=nano.specs -mfpu=fpv5-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/usart.o"
+arm-none-eabi-gcc -o "L5-SR_Win_NonSecure.elf" @"objects.list" C:/Users/asus/STM32CubeIDE/workspace_1.15.0/L5-SR_Win/Secure/Debug/secure_nsclib.o  -mcpu=cortex-m33 -T"C:\Users\asus\STM32CubeIDE\workspace_1.15.0\L5-SR_Win\NonSecure\STM32L552ZETXQ_FLASH.ld" --specs=nosys.specs -Wl,-Map="L5-SR_Win_NonSecure.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv5-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: L5-SR_Win_NonSecure.elf
+ 
+arm-none-eabi-size  L5-SR_Win_NonSecure.elf 
+arm-none-eabi-objdump -h -S L5-SR_Win_NonSecure.elf  > "L5-SR_Win_NonSecure.list"
+   text	   data	    bss	    dec	    hex	filename
+  18156	     12	   1972	  20140	   4eac	L5-SR_Win_NonSecure.elf
+Finished building: default.size.stdout
+ 
+Finished building: L5-SR_Win_NonSecure.list
+ 
+15:06:28 **** Incremental Build of configuration Debug for project L5-SR_Win_Secure ****
+make -j20 all 
+arm-none-eabi-size  L5-SR_Win_Secure.elf 
+   text	   data	    bss	    dec	    hex	filename
+   4164	     12	   1580	   5756	   167c	L5-SR_Win_Secure.elf
+Finished building: default.size.stdout
+ 
+15:06:28 **** Incremental Build of configuration Debug for project L5-SR_Win_NonSecure ****
+make -j20 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m33 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32L552xx -c -I../Core/Inc -I../../Secure_nsclib -I../../Drivers/STM32L5xx_HAL_Driver/Inc -I../../Drivers/CMSIS/Device/ST/STM32L5xx/Include -I../../Drivers/STM32L5xx_HAL_Driver/Inc/Legacy -I../../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfpu=fpv5-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/main.o"
+../Core/Src/main.c:167:1: warning: multi-line comment [-Wcomment]
+  167 | //      MY_NOP(); \
+      | ^
+../Core/Src/main.c:180:29: warning: initialization of 'volatile int *' from 'int' makes pointer from integer without a cast [-Wint-conversion]
+  180 | int volatile  *tim1_CR1 =   0x40012C00,
+      |                             ^~~~~~~~~~
+../Core/Src/main.c:181:41: warning: initialization of 'volatile int *' from 'int' makes pointer from integer without a cast [-Wint-conversion]
+  181 |                           *tim1_CR2 =   0x40012C04,
+      |                                         ^~~~~~~~~~
+../Core/Src/main.c:182:29: warning: initialization of 'volatile int *' from 'int' makes pointer from integer without a cast [-Wint-conversion]
+  182 |               *tim1_SR =    0x40012C10,
+      |                             ^~~~~~~~~~
+../Core/Src/main.c:183:29: warning: initialization of 'volatile int *' from 'int' makes pointer from integer without a cast [-Wint-conversion]
+  183 |               *tim1_DIER =  0x40012C0C,
+      |                             ^~~~~~~~~~
+../Core/Src/main.c:184:29: warning: initialization of 'volatile int *' from 'int' makes pointer from integer without a cast [-Wint-conversion]
+  184 |               *tim1_EGR =   0x40012C14,
+      |                             ^~~~~~~~~~
+../Core/Src/main.c:185:29: warning: initialization of 'volatile int *' from 'int' makes pointer from integer without a cast [-Wint-conversion]
+  185 |               *tim1_CNT =   0x40012C24,
+      |                             ^~~~~~~~~~
+../Core/Src/main.c:186:29: warning: initialization of 'volatile int *' from 'int' makes pointer from integer without a cast [-Wint-conversion]
+  186 |               *tim1_ARR =   0x40012C2C;
+      |                             ^~~~~~~~~~
+../Core/Src/main.c:188:29: warning: initialization of 'volatile int *' from 'int' makes pointer from integer without a cast [-Wint-conversion]
+  188 | int volatile  *tim2_CR1 =   0x40000000,
+      |                             ^~~~~~~~~~
+../Core/Src/main.c:189:29: warning: initialization of 'volatile int *' from 'int' makes pointer from integer without a cast [-Wint-conversion]
+  189 |               *tim2_SR =    0x40000010,
+      |                             ^~~~~~~~~~
+../Core/Src/main.c:190:29: warning: initialization of 'volatile int *' from 'int' makes pointer from integer without a cast [-Wint-conversion]
+  190 |               *tim2_DIER =  0x4000000C,
+      |                             ^~~~~~~~~~
+../Core/Src/main.c:191:29: warning: initialization of 'volatile int *' from 'int' makes pointer from integer without a cast [-Wint-conversion]
+  191 |               *tim2_EGR =   0x40000014,
+      |                             ^~~~~~~~~~
+../Core/Src/main.c:192:29: warning: initialization of 'volatile int *' from 'int' makes pointer from integer without a cast [-Wint-conversion]
+  192 |               *tim2_CNT =   0x40000024,
+      |                             ^~~~~~~~~~
+../Core/Src/main.c:193:29: warning: initialization of 'volatile int *' from 'int' makes pointer from integer without a cast [-Wint-conversion]
+  193 |               *tim2_ARR =   0x4000002C;
+      |                             ^~~~~~~~~~
+../Core/Src/main.c: In function 'victim_1_NS':
+../Core/Src/main.c:215:19: warning: variable 'max' set but not used [-Wunused-but-set-variable]
+  215 |   int num1, num2, max;
+      |                   ^~~
+../Core/Src/main.c: In function 'victim_2_NS':
+../Core/Src/main.c:226:25: warning: variable 'max' set but not used [-Wunused-but-set-variable]
+  226 |         int num1, num2, max;
+      |                         ^~~
+../Core/Src/main.c: In function 'get_accurate_trace':
+../Core/Src/main.c:148:5: warning: this 'else' clause does not guard... [-Wmisleading-indentation]
+  148 |     else \
+      |     ^~~~
+../Core/Src/main.c:295:9: note: in expansion of macro 'VICTIM_CODE'
+  295 |         VICTIM_CODE(); //define
+      |         ^~~~~~~~~~~
+../Core/Src/main.c:125:20: note: ...this statement, but the latter is misleadingly indented as if it were guarded by the 'else'
+  125 | #define HUND_NOPS()do {\
+      |                    ^~
+../Core/Src/main.c:150:9: note: in expansion of macro 'HUND_NOPS'
+  150 |         HUND_NOPS();\
+      |         ^~~~~~~~~
+../Core/Src/main.c:295:9: note: in expansion of macro 'VICTIM_CODE'
+  295 |         VICTIM_CODE(); //define
+      |         ^~~~~~~~~~~
+../Core/Src/main.c:144:15: warning: variable 'var' set but not used [-Wunused-but-set-variable]
+  144 |         int s,var; \
+      |               ^~~
+../Core/Src/main.c:295:9: note: in expansion of macro 'VICTIM_CODE'
+  295 |         VICTIM_CODE(); //define
+      |         ^~~~~~~~~~~
+../Core/Src/main.c: In function 'measure_time':
+../Core/Src/main.c:148:5: warning: this 'else' clause does not guard... [-Wmisleading-indentation]
+  148 |     else \
+      |     ^~~~
+../Core/Src/main.c:336:9: note: in expansion of macro 'VICTIM_CODE'
+  336 |         VICTIM_CODE(); // 37clks
+      |         ^~~~~~~~~~~
+../Core/Src/main.c:125:20: note: ...this statement, but the latter is misleadingly indented as if it were guarded by the 'else'
+  125 | #define HUND_NOPS()do {\
+      |                    ^~
+../Core/Src/main.c:150:9: note: in expansion of macro 'HUND_NOPS'
+  150 |         HUND_NOPS();\
+      |         ^~~~~~~~~
+../Core/Src/main.c:336:9: note: in expansion of macro 'VICTIM_CODE'
+  336 |         VICTIM_CODE(); // 37clks
+      |         ^~~~~~~~~~~
+../Core/Src/main.c:144:15: warning: variable 'var' set but not used [-Wunused-but-set-variable]
+  144 |         int s,var; \
+      |               ^~~
+../Core/Src/main.c:336:9: note: in expansion of macro 'VICTIM_CODE'
+  336 |         VICTIM_CODE(); // 37clks
+      |         ^~~~~~~~~~~
+arm-none-eabi-gcc -o "L5-SR_Win_NonSecure.elf" @"objects.list" C:/Users/asus/STM32CubeIDE/workspace_1.15.0/L5-SR_Win/Secure/Debug/secure_nsclib.o  -mcpu=cortex-m33 -T"C:\Users\asus\STM32CubeIDE\workspace_1.15.0\L5-SR_Win\NonSecure\STM32L552ZETXQ_FLASH.ld" --specs=nosys.specs -Wl,-Map="L5-SR_Win_NonSecure.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv5-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: L5-SR_Win_NonSecure.elf
+ 
+arm-none-eabi-size  L5-SR_Win_NonSecure.elf 
+arm-none-eabi-objdump -h -S L5-SR_Win_NonSecure.elf  > "L5-SR_Win_NonSecure.list"
+   text	   data	    bss	    dec	    hex	filename
+  24432	    136	   2320	  26888	   6908	L5-SR_Win_NonSecure.elf
+Finished building: default.size.stdout
+ 
+Finished building: L5-SR_Win_NonSecure.list
+ 
+15:06:30 **** Build of configuration Debug for project L5-SR_Win_Secure ****
+make -j20 all 
+arm-none-eabi-size  L5-SR_Win_Secure.elf 
+   text	   data	    bss	    dec	    hex	filename
+   4164	     12	   1580	   5756	   167c	L5-SR_Win_Secure.elf
+Finished building: default.size.stdout
+ 
+15:06:59 **** Incremental Build of configuration Debug for project L5-SR_Win_Secure ****
+make -j20 all 
+arm-none-eabi-size  L5-SR_Win_Secure.elf 
+   text	   data	    bss	    dec	    hex	filename
+   4164	     12	   1580	   5756	   167c	L5-SR_Win_Secure.elf
+Finished building: default.size.stdout
+ 
+15:06:59 **** Incremental Build of configuration Debug for project L5-SR_Win_NonSecure ****
+make -j20 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m33 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32L552xx -c -I../Core/Inc -I../../Secure_nsclib -I../../Drivers/STM32L5xx_HAL_Driver/Inc -I../../Drivers/CMSIS/Device/ST/STM32L5xx/Include -I../../Drivers/STM32L5xx_HAL_Driver/Inc/Legacy -I../../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfpu=fpv5-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/main.o"
+../Core/Src/main.c:167:1: warning: multi-line comment [-Wcomment]
+  167 | //      MY_NOP(); \
+      | ^
+../Core/Src/main.c:180:29: warning: initialization of 'volatile int *' from 'int' makes pointer from integer without a cast [-Wint-conversion]
+  180 | int volatile  *tim1_CR1 =   0x40012C00,
+      |                             ^~~~~~~~~~
+../Core/Src/main.c:181:41: warning: initialization of 'volatile int *' from 'int' makes pointer from integer without a cast [-Wint-conversion]
+  181 |                           *tim1_CR2 =   0x40012C04,
+      |                                         ^~~~~~~~~~
+../Core/Src/main.c:182:29: warning: initialization of 'volatile int *' from 'int' makes pointer from integer without a cast [-Wint-conversion]
+  182 |               *tim1_SR =    0x40012C10,
+      |                             ^~~~~~~~~~
+../Core/Src/main.c:183:29: warning: initialization of 'volatile int *' from 'int' makes pointer from integer without a cast [-Wint-conversion]
+  183 |               *tim1_DIER =  0x40012C0C,
+      |                             ^~~~~~~~~~
+../Core/Src/main.c:184:29: warning: initialization of 'volatile int *' from 'int' makes pointer from integer without a cast [-Wint-conversion]
+  184 |               *tim1_EGR =   0x40012C14,
+      |                             ^~~~~~~~~~
+../Core/Src/main.c:185:29: warning: initialization of 'volatile int *' from 'int' makes pointer from integer without a cast [-Wint-conversion]
+  185 |               *tim1_CNT =   0x40012C24,
+      |                             ^~~~~~~~~~
+../Core/Src/main.c:186:29: warning: initialization of 'volatile int *' from 'int' makes pointer from integer without a cast [-Wint-conversion]
+  186 |               *tim1_ARR =   0x40012C2C;
+      |                             ^~~~~~~~~~
+../Core/Src/main.c:188:29: warning: initialization of 'volatile int *' from 'int' makes pointer from integer without a cast [-Wint-conversion]
+  188 | int volatile  *tim2_CR1 =   0x40000000,
+      |                             ^~~~~~~~~~
+../Core/Src/main.c:189:29: warning: initialization of 'volatile int *' from 'int' makes pointer from integer without a cast [-Wint-conversion]
+  189 |               *tim2_SR =    0x40000010,
+      |                             ^~~~~~~~~~
+../Core/Src/main.c:190:29: warning: initialization of 'volatile int *' from 'int' makes pointer from integer without a cast [-Wint-conversion]
+  190 |               *tim2_DIER =  0x4000000C,
+      |                             ^~~~~~~~~~
+../Core/Src/main.c:191:29: warning: initialization of 'volatile int *' from 'int' makes pointer from integer without a cast [-Wint-conversion]
+  191 |               *tim2_EGR =   0x40000014,
+      |                             ^~~~~~~~~~
+../Core/Src/main.c:192:29: warning: initialization of 'volatile int *' from 'int' makes pointer from integer without a cast [-Wint-conversion]
+  192 |               *tim2_CNT =   0x40000024,
+      |                             ^~~~~~~~~~
+../Core/Src/main.c:193:29: warning: initialization of 'volatile int *' from 'int' makes pointer from integer without a cast [-Wint-conversion]
+  193 |               *tim2_ARR =   0x4000002C;
+      |                             ^~~~~~~~~~
+../Core/Src/main.c: In function 'victim_1_NS':
+../Core/Src/main.c:215:19: warning: variable 'max' set but not used [-Wunused-but-set-variable]
+  215 |   int num1, num2, max;
+      |                   ^~~
+../Core/Src/main.c: In function 'victim_2_NS':
+../Core/Src/main.c:226:25: warning: variable 'max' set but not used [-Wunused-but-set-variable]
+  226 |         int num1, num2, max;
+      |                         ^~~
+../Core/Src/main.c: In function 'get_accurate_trace':
+../Core/Src/main.c:148:5: warning: this 'else' clause does not guard... [-Wmisleading-indentation]
+  148 |     else \
+      |     ^~~~
+../Core/Src/main.c:295:9: note: in expansion of macro 'VICTIM_CODE'
+  295 |         VICTIM_CODE(); //define
+      |         ^~~~~~~~~~~
+../Core/Src/main.c:125:20: note: ...this statement, but the latter is misleadingly indented as if it were guarded by the 'else'
+  125 | #define HUND_NOPS()do {\
+      |                    ^~
+../Core/Src/main.c:150:9: note: in expansion of macro 'HUND_NOPS'
+  150 |         HUND_NOPS();\
+      |         ^~~~~~~~~
+../Core/Src/main.c:295:9: note: in expansion of macro 'VICTIM_CODE'
+  295 |         VICTIM_CODE(); //define
+      |         ^~~~~~~~~~~
+../Core/Src/main.c:144:15: warning: variable 'var' set but not used [-Wunused-but-set-variable]
+  144 |         int s,var; \
+      |               ^~~
+../Core/Src/main.c:295:9: note: in expansion of macro 'VICTIM_CODE'
+  295 |         VICTIM_CODE(); //define
+      |         ^~~~~~~~~~~
+../Core/Src/main.c: In function 'measure_time':
+../Core/Src/main.c:148:5: warning: this 'else' clause does not guard... [-Wmisleading-indentation]
+  148 |     else \
+      |     ^~~~
+../Core/Src/main.c:336:9: note: in expansion of macro 'VICTIM_CODE'
+  336 |         VICTIM_CODE(); // 37clks
+      |         ^~~~~~~~~~~
+../Core/Src/main.c:125:20: note: ...this statement, but the latter is misleadingly indented as if it were guarded by the 'else'
+  125 | #define HUND_NOPS()do {\
+      |                    ^~
+../Core/Src/main.c:150:9: note: in expansion of macro 'HUND_NOPS'
+  150 |         HUND_NOPS();\
+      |         ^~~~~~~~~
+../Core/Src/main.c:336:9: note: in expansion of macro 'VICTIM_CODE'
+  336 |         VICTIM_CODE(); // 37clks
+      |         ^~~~~~~~~~~
+../Core/Src/main.c:144:15: warning: variable 'var' set but not used [-Wunused-but-set-variable]
+  144 |         int s,var; \
+      |               ^~~
+../Core/Src/main.c:336:9: note: in expansion of macro 'VICTIM_CODE'
+  336 |         VICTIM_CODE(); // 37clks
+      |         ^~~~~~~~~~~
+arm-none-eabi-gcc -o "L5-SR_Win_NonSecure.elf" @"objects.list" C:/Users/asus/STM32CubeIDE/workspace_1.15.0/L5-SR_Win/Secure/Debug/secure_nsclib.o  -mcpu=cortex-m33 -T"C:\Users\asus\STM32CubeIDE\workspace_1.15.0\L5-SR_Win\NonSecure\STM32L552ZETXQ_FLASH.ld" --specs=nosys.specs -Wl,-Map="L5-SR_Win_NonSecure.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv5-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: L5-SR_Win_NonSecure.elf
+ 
+arm-none-eabi-size  L5-SR_Win_NonSecure.elf 
+arm-none-eabi-objdump -h -S L5-SR_Win_NonSecure.elf  > "L5-SR_Win_NonSecure.list"
+   text	   data	    bss	    dec	    hex	filename
+  24440	    136	   2320	  26896	   6910	L5-SR_Win_NonSecure.elf
+Finished building: default.size.stdout
+ 
+Finished building: L5-SR_Win_NonSecure.list
+ 
+15:07:02 **** Incremental Build of configuration Debug for project L5-SR_Win_Secure ****
+make -j20 all 
+arm-none-eabi-size  L5-SR_Win_Secure.elf 
+   text	   data	    bss	    dec	    hex	filename
+   4164	     12	   1580	   5756	   167c	L5-SR_Win_Secure.elf
+Finished building: default.size.stdout
+ 
+16:40:03 **** Incremental Build of configuration Debug for project L5-SR_Win_Secure ****
+make -j20 all 
+arm-none-eabi-size  L5-SR_Win_Secure.elf 
+   text	   data	    bss	    dec	    hex	filename
+   4164	     12	   1580	   5756	   167c	L5-SR_Win_Secure.elf
+Finished building: default.size.stdout
+ 
+16:40:04 **** Incremental Build of configuration Debug for project L5-SR_Win_NonSecure ****
+make -j20 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m33 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32L552xx -c -I../Core/Inc -I../../Secure_nsclib -I../../Drivers/STM32L5xx_HAL_Driver/Inc -I../../Drivers/CMSIS/Device/ST/STM32L5xx/Include -I../../Drivers/STM32L5xx_HAL_Driver/Inc/Legacy -I../../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfpu=fpv5-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/main.o"
+../Core/Src/main.c:167:1: warning: multi-line comment [-Wcomment]
+  167 | //      MY_NOP(); \
+      | ^
+../Core/Src/main.c:180:29: warning: initialization of 'volatile int *' from 'int' makes pointer from integer without a cast [-Wint-conversion]
+  180 | int volatile  *tim1_CR1 =   0x40012C00,
+      |                             ^~~~~~~~~~
+../Core/Src/main.c:181:41: warning: initialization of 'volatile int *' from 'int' makes pointer from integer without a cast [-Wint-conversion]
+  181 |                           *tim1_CR2 =   0x40012C04,
+      |                                         ^~~~~~~~~~
+../Core/Src/main.c:182:29: warning: initialization of 'volatile int *' from 'int' makes pointer from integer without a cast [-Wint-conversion]
+  182 |               *tim1_SR =    0x40012C10,
+      |                             ^~~~~~~~~~
+../Core/Src/main.c:183:29: warning: initialization of 'volatile int *' from 'int' makes pointer from integer without a cast [-Wint-conversion]
+  183 |               *tim1_DIER =  0x40012C0C,
+      |                             ^~~~~~~~~~
+../Core/Src/main.c:184:29: warning: initialization of 'volatile int *' from 'int' makes pointer from integer without a cast [-Wint-conversion]
+  184 |               *tim1_EGR =   0x40012C14,
+      |                             ^~~~~~~~~~
+../Core/Src/main.c:185:29: warning: initialization of 'volatile int *' from 'int' makes pointer from integer without a cast [-Wint-conversion]
+  185 |               *tim1_CNT =   0x40012C24,
+      |                             ^~~~~~~~~~
+../Core/Src/main.c:186:29: warning: initialization of 'volatile int *' from 'int' makes pointer from integer without a cast [-Wint-conversion]
+  186 |               *tim1_ARR =   0x40012C2C;
+      |                             ^~~~~~~~~~
+../Core/Src/main.c:188:29: warning: initialization of 'volatile int *' from 'int' makes pointer from integer without a cast [-Wint-conversion]
+  188 | int volatile  *tim2_CR1 =   0x40000000,
+      |                             ^~~~~~~~~~
+../Core/Src/main.c:189:29: warning: initialization of 'volatile int *' from 'int' makes pointer from integer without a cast [-Wint-conversion]
+  189 |               *tim2_SR =    0x40000010,
+      |                             ^~~~~~~~~~
+../Core/Src/main.c:190:29: warning: initialization of 'volatile int *' from 'int' makes pointer from integer without a cast [-Wint-conversion]
+  190 |               *tim2_DIER =  0x4000000C,
+      |                             ^~~~~~~~~~
+../Core/Src/main.c:191:29: warning: initialization of 'volatile int *' from 'int' makes pointer from integer without a cast [-Wint-conversion]
+  191 |               *tim2_EGR =   0x40000014,
+      |                             ^~~~~~~~~~
+../Core/Src/main.c:192:29: warning: initialization of 'volatile int *' from 'int' makes pointer from integer without a cast [-Wint-conversion]
+  192 |               *tim2_CNT =   0x40000024,
+      |                             ^~~~~~~~~~
+../Core/Src/main.c:193:29: warning: initialization of 'volatile int *' from 'int' makes pointer from integer without a cast [-Wint-conversion]
+  193 |               *tim2_ARR =   0x4000002C;
+      |                             ^~~~~~~~~~
+../Core/Src/main.c: In function 'victim_1_NS':
+../Core/Src/main.c:215:19: warning: variable 'max' set but not used [-Wunused-but-set-variable]
+  215 |   int num1, num2, max;
+      |                   ^~~
+../Core/Src/main.c: In function 'victim_2_NS':
+../Core/Src/main.c:226:25: warning: variable 'max' set but not used [-Wunused-but-set-variable]
+  226 |         int num1, num2, max;
+      |                         ^~~
+../Core/Src/main.c: In function 'get_accurate_trace':
+../Core/Src/main.c:148:5: warning: this 'else' clause does not guard... [-Wmisleading-indentation]
+  148 |     else \
+      |     ^~~~
+../Core/Src/main.c:295:9: note: in expansion of macro 'VICTIM_CODE'
+  295 |         VICTIM_CODE(); //define
+      |         ^~~~~~~~~~~
+../Core/Src/main.c:125:20: note: ...this statement, but the latter is misleadingly indented as if it were guarded by the 'else'
+  125 | #define HUND_NOPS()do {\
+      |                    ^~
+../Core/Src/main.c:150:9: note: in expansion of macro 'HUND_NOPS'
+  150 |         HUND_NOPS();\
+      |         ^~~~~~~~~
+../Core/Src/main.c:295:9: note: in expansion of macro 'VICTIM_CODE'
+  295 |         VICTIM_CODE(); //define
+      |         ^~~~~~~~~~~
+../Core/Src/main.c:144:15: warning: variable 'var' set but not used [-Wunused-but-set-variable]
+  144 |         int s,var; \
+      |               ^~~
+../Core/Src/main.c:295:9: note: in expansion of macro 'VICTIM_CODE'
+  295 |         VICTIM_CODE(); //define
+      |         ^~~~~~~~~~~
+../Core/Src/main.c: In function 'measure_time':
+../Core/Src/main.c:148:5: warning: this 'else' clause does not guard... [-Wmisleading-indentation]
+  148 |     else \
+      |     ^~~~
+../Core/Src/main.c:336:9: note: in expansion of macro 'VICTIM_CODE'
+  336 |         VICTIM_CODE(); // 37clks
+      |         ^~~~~~~~~~~
+../Core/Src/main.c:125:20: note: ...this statement, but the latter is misleadingly indented as if it were guarded by the 'else'
+  125 | #define HUND_NOPS()do {\
+      |                    ^~
+../Core/Src/main.c:150:9: note: in expansion of macro 'HUND_NOPS'
+  150 |         HUND_NOPS();\
+      |         ^~~~~~~~~
+../Core/Src/main.c:336:9: note: in expansion of macro 'VICTIM_CODE'
+  336 |         VICTIM_CODE(); // 37clks
+      |         ^~~~~~~~~~~
+../Core/Src/main.c:144:15: warning: variable 'var' set but not used [-Wunused-but-set-variable]
+  144 |         int s,var; \
+      |               ^~~
+../Core/Src/main.c:336:9: note: in expansion of macro 'VICTIM_CODE'
+  336 |         VICTIM_CODE(); // 37clks
+      |         ^~~~~~~~~~~
+arm-none-eabi-gcc -o "L5-SR_Win_NonSecure.elf" @"objects.list" C:/Users/asus/STM32CubeIDE/workspace_1.15.0/L5-SR_Win/Secure/Debug/secure_nsclib.o  -mcpu=cortex-m33 -T"C:\Users\asus\STM32CubeIDE\workspace_1.15.0\L5-SR_Win\NonSecure\STM32L552ZETXQ_FLASH.ld" --specs=nosys.specs -Wl,-Map="L5-SR_Win_NonSecure.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv5-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: L5-SR_Win_NonSecure.elf
+ 
+arm-none-eabi-size  L5-SR_Win_NonSecure.elf 
+arm-none-eabi-objdump -h -S L5-SR_Win_NonSecure.elf  > "L5-SR_Win_NonSecure.list"
+   text	   data	    bss	    dec	    hex	filename
+  24444	    136	   2320	  26900	   6914	L5-SR_Win_NonSecure.elf
+Finished building: default.size.stdout
+ 
+Finished building: L5-SR_Win_NonSecure.list
+ 
+16:40:07 **** Incremental Build of configuration Debug for project L5-SR_Win_Secure ****
+make -j20 all 
+arm-none-eabi-size  L5-SR_Win_Secure.elf 
+   text	   data	    bss	    dec	    hex	filename
+   4164	     12	   1580	   5756	   167c	L5-SR_Win_Secure.elf
+Finished building: default.size.stdout
+ 
+16:41:30 **** Incremental Build of configuration Debug for project L5-SR_Win_Secure ****
+make -j20 all 
+arm-none-eabi-size  L5-SR_Win_Secure.elf 
+   text	   data	    bss	    dec	    hex	filename
+   4164	     12	   1580	   5756	   167c	L5-SR_Win_Secure.elf
+Finished building: default.size.stdout
+ 
+16:41:31 **** Incremental Build of configuration Debug for project L5-SR_Win_NonSecure ****
+make -j20 all 
+arm-none-eabi-size  L5-SR_Win_NonSecure.elf 
+   text	   data	    bss	    dec	    hex	filename
+  24444	    136	   2320	  26900	   6914	L5-SR_Win_NonSecure.elf
+Finished building: default.size.stdout
+ 
+16:41:31 **** Incremental Build of configuration Debug for project L5-SR_Win_Secure ****
+make -j20 all 
+arm-none-eabi-size  L5-SR_Win_Secure.elf 
+   text	   data	    bss	    dec	    hex	filename
+   4164	     12	   1580	   5756	   167c	L5-SR_Win_Secure.elf
+Finished building: default.size.stdout
+ 
+16:42:02 **** Incremental Build of configuration Debug for project L5-SR_Win_Secure ****
+make -j20 all 
+arm-none-eabi-size  L5-SR_Win_Secure.elf 
+   text	   data	    bss	    dec	    hex	filename
+   4164	     12	   1580	   5756	   167c	L5-SR_Win_Secure.elf
+Finished building: default.size.stdout
+ 
+16:42:02 **** Incremental Build of configuration Debug for project L5-SR_Win_NonSecure ****
+make -j20 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m33 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32L552xx -c -I../Core/Inc -I../../Secure_nsclib -I../../Drivers/STM32L5xx_HAL_Driver/Inc -I../../Drivers/CMSIS/Device/ST/STM32L5xx/Include -I../../Drivers/STM32L5xx_HAL_Driver/Inc/Legacy -I../../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfpu=fpv5-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/main.o"
+../Core/Src/main.c:167:1: warning: multi-line comment [-Wcomment]
+  167 | //      MY_NOP(); \
+      | ^
+../Core/Src/main.c:180:29: warning: initialization of 'volatile int *' from 'int' makes pointer from integer without a cast [-Wint-conversion]
+  180 | int volatile  *tim1_CR1 =   0x40012C00,
+      |                             ^~~~~~~~~~
+../Core/Src/main.c:181:41: warning: initialization of 'volatile int *' from 'int' makes pointer from integer without a cast [-Wint-conversion]
+  181 |                           *tim1_CR2 =   0x40012C04,
+      |                                         ^~~~~~~~~~
+../Core/Src/main.c:182:29: warning: initialization of 'volatile int *' from 'int' makes pointer from integer without a cast [-Wint-conversion]
+  182 |               *tim1_SR =    0x40012C10,
+      |                             ^~~~~~~~~~
+../Core/Src/main.c:183:29: warning: initialization of 'volatile int *' from 'int' makes pointer from integer without a cast [-Wint-conversion]
+  183 |               *tim1_DIER =  0x40012C0C,
+      |                             ^~~~~~~~~~
+../Core/Src/main.c:184:29: warning: initialization of 'volatile int *' from 'int' makes pointer from integer without a cast [-Wint-conversion]
+  184 |               *tim1_EGR =   0x40012C14,
+      |                             ^~~~~~~~~~
+../Core/Src/main.c:185:29: warning: initialization of 'volatile int *' from 'int' makes pointer from integer without a cast [-Wint-conversion]
+  185 |               *tim1_CNT =   0x40012C24,
+      |                             ^~~~~~~~~~
+../Core/Src/main.c:186:29: warning: initialization of 'volatile int *' from 'int' makes pointer from integer without a cast [-Wint-conversion]
+  186 |               *tim1_ARR =   0x40012C2C;
+      |                             ^~~~~~~~~~
+../Core/Src/main.c:188:29: warning: initialization of 'volatile int *' from 'int' makes pointer from integer without a cast [-Wint-conversion]
+  188 | int volatile  *tim2_CR1 =   0x40000000,
+      |                             ^~~~~~~~~~
+../Core/Src/main.c:189:29: warning: initialization of 'volatile int *' from 'int' makes pointer from integer without a cast [-Wint-conversion]
+  189 |               *tim2_SR =    0x40000010,
+      |                             ^~~~~~~~~~
+../Core/Src/main.c:190:29: warning: initialization of 'volatile int *' from 'int' makes pointer from integer without a cast [-Wint-conversion]
+  190 |               *tim2_DIER =  0x4000000C,
+      |                             ^~~~~~~~~~
+../Core/Src/main.c:191:29: warning: initialization of 'volatile int *' from 'int' makes pointer from integer without a cast [-Wint-conversion]
+  191 |               *tim2_EGR =   0x40000014,
+      |                             ^~~~~~~~~~
+../Core/Src/main.c:192:29: warning: initialization of 'volatile int *' from 'int' makes pointer from integer without a cast [-Wint-conversion]
+  192 |               *tim2_CNT =   0x40000024,
+      |                             ^~~~~~~~~~
+../Core/Src/main.c:193:29: warning: initialization of 'volatile int *' from 'int' makes pointer from integer without a cast [-Wint-conversion]
+  193 |               *tim2_ARR =   0x4000002C;
+      |                             ^~~~~~~~~~
+../Core/Src/main.c: In function 'victim_1_NS':
+../Core/Src/main.c:215:19: warning: variable 'max' set but not used [-Wunused-but-set-variable]
+  215 |   int num1, num2, max;
+      |                   ^~~
+../Core/Src/main.c: In function 'victim_2_NS':
+../Core/Src/main.c:226:25: warning: variable 'max' set but not used [-Wunused-but-set-variable]
+  226 |         int num1, num2, max;
+      |                         ^~~
+../Core/Src/main.c: In function 'get_accurate_trace':
+../Core/Src/main.c:148:5: warning: this 'else' clause does not guard... [-Wmisleading-indentation]
+  148 |     else \
+      |     ^~~~
+../Core/Src/main.c:295:9: note: in expansion of macro 'VICTIM_CODE'
+  295 |         VICTIM_CODE(); //define
+      |         ^~~~~~~~~~~
+../Core/Src/main.c:125:20: note: ...this statement, but the latter is misleadingly indented as if it were guarded by the 'else'
+  125 | #define HUND_NOPS()do {\
+      |                    ^~
+../Core/Src/main.c:150:9: note: in expansion of macro 'HUND_NOPS'
+  150 |         HUND_NOPS();\
+      |         ^~~~~~~~~
+../Core/Src/main.c:295:9: note: in expansion of macro 'VICTIM_CODE'
+  295 |         VICTIM_CODE(); //define
+      |         ^~~~~~~~~~~
+../Core/Src/main.c:144:15: warning: variable 'var' set but not used [-Wunused-but-set-variable]
+  144 |         int s,var; \
+      |               ^~~
+../Core/Src/main.c:295:9: note: in expansion of macro 'VICTIM_CODE'
+  295 |         VICTIM_CODE(); //define
+      |         ^~~~~~~~~~~
+../Core/Src/main.c: In function 'measure_time':
+../Core/Src/main.c:148:5: warning: this 'else' clause does not guard... [-Wmisleading-indentation]
+  148 |     else \
+      |     ^~~~
+../Core/Src/main.c:336:9: note: in expansion of macro 'VICTIM_CODE'
+  336 |         VICTIM_CODE(); // 37clks
+      |         ^~~~~~~~~~~
+../Core/Src/main.c:125:20: note: ...this statement, but the latter is misleadingly indented as if it were guarded by the 'else'
+  125 | #define HUND_NOPS()do {\
+      |                    ^~
+../Core/Src/main.c:150:9: note: in expansion of macro 'HUND_NOPS'
+  150 |         HUND_NOPS();\
+      |         ^~~~~~~~~
+../Core/Src/main.c:336:9: note: in expansion of macro 'VICTIM_CODE'
+  336 |         VICTIM_CODE(); // 37clks
+      |         ^~~~~~~~~~~
+../Core/Src/main.c:144:15: warning: variable 'var' set but not used [-Wunused-but-set-variable]
+  144 |         int s,var; \
+      |               ^~~
+../Core/Src/main.c:336:9: note: in expansion of macro 'VICTIM_CODE'
+  336 |         VICTIM_CODE(); // 37clks
+      |         ^~~~~~~~~~~
+arm-none-eabi-gcc -o "L5-SR_Win_NonSecure.elf" @"objects.list" C:/Users/asus/STM32CubeIDE/workspace_1.15.0/L5-SR_Win/Secure/Debug/secure_nsclib.o  -mcpu=cortex-m33 -T"C:\Users\asus\STM32CubeIDE\workspace_1.15.0\L5-SR_Win\NonSecure\STM32L552ZETXQ_FLASH.ld" --specs=nosys.specs -Wl,-Map="L5-SR_Win_NonSecure.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv5-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: L5-SR_Win_NonSecure.elf
+ 
+arm-none-eabi-size  L5-SR_Win_NonSecure.elf 
+arm-none-eabi-objdump -h -S L5-SR_Win_NonSecure.elf  > "L5-SR_Win_NonSecure.list"
+   text	   data	    bss	    dec	    hex	filename
+  24432	    136	   2320	  26888	   6908	L5-SR_Win_NonSecure.elf
+Finished building: default.size.stdout
+ 
+Finished building: L5-SR_Win_NonSecure.list
+ 
+16:42:05 **** Incremental Build of configuration Debug for project L5-SR_Win_Secure ****
+make -j20 all 
+arm-none-eabi-size  L5-SR_Win_Secure.elf 
+   text	   data	    bss	    dec	    hex	filename
+   4164	     12	   1580	   5756	   167c	L5-SR_Win_Secure.elf
+Finished building: default.size.stdout
+ 
+16:59:12 **** Incremental Build of configuration Debug for project L5-SR_Win_Secure ****
+make -j20 all 
+arm-none-eabi-size  L5-SR_Win_Secure.elf 
+   text	   data	    bss	    dec	    hex	filename
+   4164	     12	   1580	   5756	   167c	L5-SR_Win_Secure.elf
+Finished building: default.size.stdout
+ 
+16:59:12 **** Incremental Build of configuration Debug for project L5-SR_Win_NonSecure ****
+make -j20 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m33 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32L552xx -c -I../Core/Inc -I../../Secure_nsclib -I../../Drivers/STM32L5xx_HAL_Driver/Inc -I../../Drivers/CMSIS/Device/ST/STM32L5xx/Include -I../../Drivers/STM32L5xx_HAL_Driver/Inc/Legacy -I../../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfpu=fpv5-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/main.o"
+../Core/Src/main.c:174:1: warning: multi-line comment [-Wcomment]
+  174 | //      MY_NOP(); \
+      | ^
+../Core/Src/main.c:187:29: warning: initialization of 'volatile int *' from 'int' makes pointer from integer without a cast [-Wint-conversion]
+  187 | int volatile  *tim1_CR1 =   0x40012C00,
+      |                             ^~~~~~~~~~
+../Core/Src/main.c:188:41: warning: initialization of 'volatile int *' from 'int' makes pointer from integer without a cast [-Wint-conversion]
+  188 |                           *tim1_CR2 =   0x40012C04,
+      |                                         ^~~~~~~~~~
+../Core/Src/main.c:189:29: warning: initialization of 'volatile int *' from 'int' makes pointer from integer without a cast [-Wint-conversion]
+  189 |               *tim1_SR =    0x40012C10,
+      |                             ^~~~~~~~~~
+../Core/Src/main.c:190:29: warning: initialization of 'volatile int *' from 'int' makes pointer from integer without a cast [-Wint-conversion]
+  190 |               *tim1_DIER =  0x40012C0C,
+      |                             ^~~~~~~~~~
+../Core/Src/main.c:191:29: warning: initialization of 'volatile int *' from 'int' makes pointer from integer without a cast [-Wint-conversion]
+  191 |               *tim1_EGR =   0x40012C14,
+      |                             ^~~~~~~~~~
+../Core/Src/main.c:192:29: warning: initialization of 'volatile int *' from 'int' makes pointer from integer without a cast [-Wint-conversion]
+  192 |               *tim1_CNT =   0x40012C24,
+      |                             ^~~~~~~~~~
+../Core/Src/main.c:193:29: warning: initialization of 'volatile int *' from 'int' makes pointer from integer without a cast [-Wint-conversion]
+  193 |               *tim1_ARR =   0x40012C2C;
+      |                             ^~~~~~~~~~
+../Core/Src/main.c:195:29: warning: initialization of 'volatile int *' from 'int' makes pointer from integer without a cast [-Wint-conversion]
+  195 | int volatile  *tim2_CR1 =   0x40000000,
+      |                             ^~~~~~~~~~
+../Core/Src/main.c:196:29: warning: initialization of 'volatile int *' from 'int' makes pointer from integer without a cast [-Wint-conversion]
+  196 |               *tim2_SR =    0x40000010,
+      |                             ^~~~~~~~~~
+../Core/Src/main.c:197:29: warning: initialization of 'volatile int *' from 'int' makes pointer from integer without a cast [-Wint-conversion]
+  197 |               *tim2_DIER =  0x4000000C,
+      |                             ^~~~~~~~~~
+../Core/Src/main.c:198:29: warning: initialization of 'volatile int *' from 'int' makes pointer from integer without a cast [-Wint-conversion]
+  198 |               *tim2_EGR =   0x40000014,
+      |                             ^~~~~~~~~~
+../Core/Src/main.c:199:29: warning: initialization of 'volatile int *' from 'int' makes pointer from integer without a cast [-Wint-conversion]
+  199 |               *tim2_CNT =   0x40000024,
+      |                             ^~~~~~~~~~
+../Core/Src/main.c:200:29: warning: initialization of 'volatile int *' from 'int' makes pointer from integer without a cast [-Wint-conversion]
+  200 |               *tim2_ARR =   0x4000002C;
+      |                             ^~~~~~~~~~
+../Core/Src/main.c: In function 'victim_1_NS':
+../Core/Src/main.c:222:19: warning: variable 'max' set but not used [-Wunused-but-set-variable]
+  222 |   int num1, num2, max;
+      |                   ^~~
+../Core/Src/main.c: In function 'victim_2_NS':
+../Core/Src/main.c:233:25: warning: variable 'max' set but not used [-Wunused-but-set-variable]
+  233 |         int num1, num2, max;
+      |                         ^~~
+../Core/Src/main.c: In function 'get_accurate_trace':
+../Core/Src/main.c:151:5: warning: this 'else' clause does not guard... [-Wmisleading-indentation]
+  151 |     else \
+      |     ^~~~
+../Core/Src/main.c:302:9: note: in expansion of macro 'VICTIM_CODE'
+  302 |         VICTIM_CODE(); //define
+      |         ^~~~~~~~~~~
+../Core/Src/main.c:125:20: note: ...this statement, but the latter is misleadingly indented as if it were guarded by the 'else'
+  125 | #define HUND_NOPS()do {\
+      |                    ^~
+../Core/Src/main.c:153:9: note: in expansion of macro 'HUND_NOPS'
+  153 |         HUND_NOPS();\
+      |         ^~~~~~~~~
+../Core/Src/main.c:302:9: note: in expansion of macro 'VICTIM_CODE'
+  302 |         VICTIM_CODE(); //define
+      |         ^~~~~~~~~~~
+../Core/Src/main.c:147:15: warning: variable 'var' set but not used [-Wunused-but-set-variable]
+  147 |         int s,var; \
+      |               ^~~
+../Core/Src/main.c:302:9: note: in expansion of macro 'VICTIM_CODE'
+  302 |         VICTIM_CODE(); //define
+      |         ^~~~~~~~~~~
+../Core/Src/main.c: In function 'measure_time':
+../Core/Src/main.c:151:5: warning: this 'else' clause does not guard... [-Wmisleading-indentation]
+  151 |     else \
+      |     ^~~~
+../Core/Src/main.c:343:9: note: in expansion of macro 'VICTIM_CODE'
+  343 |         VICTIM_CODE(); // 37clks
+      |         ^~~~~~~~~~~
+../Core/Src/main.c:125:20: note: ...this statement, but the latter is misleadingly indented as if it were guarded by the 'else'
+  125 | #define HUND_NOPS()do {\
+      |                    ^~
+../Core/Src/main.c:153:9: note: in expansion of macro 'HUND_NOPS'
+  153 |         HUND_NOPS();\
+      |         ^~~~~~~~~
+../Core/Src/main.c:343:9: note: in expansion of macro 'VICTIM_CODE'
+  343 |         VICTIM_CODE(); // 37clks
+      |         ^~~~~~~~~~~
+../Core/Src/main.c:147:15: warning: variable 'var' set but not used [-Wunused-but-set-variable]
+  147 |         int s,var; \
+      |               ^~~
+../Core/Src/main.c:343:9: note: in expansion of macro 'VICTIM_CODE'
+  343 |         VICTIM_CODE(); // 37clks
+      |         ^~~~~~~~~~~
+arm-none-eabi-gcc -o "L5-SR_Win_NonSecure.elf" @"objects.list" C:/Users/asus/STM32CubeIDE/workspace_1.15.0/L5-SR_Win/Secure/Debug/secure_nsclib.o  -mcpu=cortex-m33 -T"C:\Users\asus\STM32CubeIDE\workspace_1.15.0\L5-SR_Win\NonSecure\STM32L552ZETXQ_FLASH.ld" --specs=nosys.specs -Wl,-Map="L5-SR_Win_NonSecure.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv5-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: L5-SR_Win_NonSecure.elf
+ 
+arm-none-eabi-size  L5-SR_Win_NonSecure.elf 
+arm-none-eabi-objdump -h -S L5-SR_Win_NonSecure.elf  > "L5-SR_Win_NonSecure.list"
+   text	   data	    bss	    dec	    hex	filename
+  25232	    136	   2320	  27688	   6c28	L5-SR_Win_NonSecure.elf
+Finished building: default.size.stdout
+ 
+Finished building: L5-SR_Win_NonSecure.list
+ 
+16:59:15 **** Incremental Build of configuration Debug for project L5-SR_Win_Secure ****
+make -j20 all 
+arm-none-eabi-size  L5-SR_Win_Secure.elf 
+   text	   data	    bss	    dec	    hex	filename
+   4164	     12	   1580	   5756	   167c	L5-SR_Win_Secure.elf
+Finished building: default.size.stdout
+ 

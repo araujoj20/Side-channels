@@ -1,0 +1,12 @@
+../Core/Src/main.c:215:5:__io_putchar	1
+../Core/Src/main.c:221:35:victim_1_NS	2
+../Core/Src/main.c:232:35:victim_2_NS	2
+../Core/Src/main.c:259:35:victim_	2
+../Core/Src/main.c:269:35:get_accurate_trace	5
+../Core/Src/main.c:313:35:process_accurate_collision	1
+../Core/Src/main.c:326:35:accurate_trace	2
+../Core/Src/main.c:335:35:measure_time	2
+../Core/Src/main.c:352:35:measure_time_old	1
+../Core/Src/main.c:374:5:main	1
+../Core/Src/main.c:428:6:SystemClock_Config	4
+../Core/Src/main.c:482:6:Error_Handler	1
